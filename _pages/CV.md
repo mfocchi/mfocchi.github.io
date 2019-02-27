@@ -2,7 +2,7 @@
 title: "CV"
 permalink: /CV/
 header:
-    image: "/assets/images/home-page.jpg"
+
 ---
 
 You can find my CV [here](https://www.dropbox.com/s/13suf5emc4nqknc/cv_last.pdf).
