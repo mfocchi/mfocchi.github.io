@@ -104,11 +104,11 @@ analytics:
 author:
   name             : "Michele Focchi"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hi there. I am an aspiring Data Scientist exercising passionately in the field of Deep Learning, Exploratory Analysis, and Data Visualizations."
-  location         : "Aachen, Germany"
-  github           : "kiranchhatre"
-  linkedin         : "kiranchhatre/"
-  YouTube          : "https://www.youtube.com/channel/UCl-eVYv0TSICZPVeohpgoLw/"
+  bio              : ""
+  location         : "Genova, Italy"
+  github           : "mfocchi"
+  linkedin         : "https://www.linkedin.com/in/michele-focchi-4149115/"
+  YouTube          : "https://www.youtube.com/channel/UC45i3BaTxTpDWPLY2UhpolA"
 
 # Site Footer
 footer:
