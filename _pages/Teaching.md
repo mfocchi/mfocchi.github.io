@@ -11,3 +11,6 @@ Lectures in Control of Robots:
 
 [Operational Space Control](https://www.dropbox.com/s/6m9e7kt74fp5t7d/operationalSpaceControl.pptx)
 
+[Interaction Control](https://www.dropbox.com/s/xprgcunlys1svyf/interactionControl.pptx)
+
+[Floating Base Robots](https://www.dropbox.com/s/nh6hee8ik8xuwk2/floatingBaseRobots.pptx)
