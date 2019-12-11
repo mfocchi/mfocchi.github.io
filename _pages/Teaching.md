@@ -14,3 +14,14 @@ Lectures in Control of Robots:
 [Interaction Control](https://www.dropbox.com/s/xprgcunlys1svyf/interactionControl.pptx)
 
 [Floating Base Robots](https://www.dropbox.com/s/nh6hee8ik8xuwk2/floatingBaseRobots.pptx)
+
+
+
+Lab sessions:
+
+[JointSpace Motion Control Lab](https://www.dropbox.com/s/ty5x0rxb22neq6n/lab_jointSpaceMotionControl.zip)
+
+
+
+
+
