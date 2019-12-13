@@ -19,6 +19,8 @@ Lectures in Control of Robots:
 
 Lab sessions:
 
+[Install Instructions](https://www.dropbox.com/s/7pl7gokup5a9ku3/install.txt?dl=0)
+
 [Instructions for the lab and python examples](https://www.dropbox.com/s/598n6zarutt06cm/lab.zip)
 
 
