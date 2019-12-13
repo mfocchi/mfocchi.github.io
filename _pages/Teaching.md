@@ -19,7 +19,7 @@ Lectures in Control of Robots:
 
 Lab sessions:
 
-[JointSpace Motion Control Lab](https://www.dropbox.com/s/ty5x0rxb22neq6n/lab_jointSpaceMotionControl.zip)
+[Instructions for the lab and python examples](https://www.dropbox.com/s/598n6zarutt06cm/lab.zip)
 
 
 
