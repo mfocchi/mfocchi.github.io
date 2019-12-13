@@ -23,7 +23,7 @@ Lab sessions:
 
 [Instructions for the lab and python examples](https://www.dropbox.com/s/598n6zarutt06cm/lab.zip)
 
-
+[JointSpaceMotionControlFast](https://www.dropbox.com/s/rf0n6h68tee12xw/jointSpaceMotionControlFast.py?dl=0)
 
 
 
