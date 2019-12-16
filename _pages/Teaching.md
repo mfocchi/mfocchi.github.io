@@ -13,7 +13,7 @@ Lectures in Control of Robots:
 
 [Interaction Control](https://www.dropbox.com/s/7b49lmr4jn3warn/interactionControl.pdf)
 
-[Floating Base Robots](https://www.dropbox.com/s/nh6hee8ik8xuwk2/floatingBaseRobots.pptx?dl=0)
+[Floating Base Robots](https://www.dropbox.com/s/rbmw4oaxs4af8xh/floatingBaseRobots.pdf?dl=0)
 
 
 
