@@ -5,7 +5,11 @@ header:
 
 ---
 
-Lectures in Control of Robots:
+Lectures in Control of Robots at University of São Paulo:
+
+![](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/pic_course_usp.jpg)
+
+
 
 [Joint Space Motion Control](https://www.dropbox.com/s/1tl5s22ms3ktbb9/jointSpaceControlV2.pdf)
 
