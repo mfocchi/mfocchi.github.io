@@ -19,7 +19,7 @@ Lectures in Control of Robots at University of São Paulo:
 
 [Floating Base Robots](https://www.dropbox.com/s/rbmw4oaxs4af8xh/floatingBaseRobots.pdf?dl=0)
 
-
+[Quadruped Robots](https://www.dropbox.com/s/tyiiwi8azi656w5/Lecture5_QuadrupedsNoNotes.pptx)
 
 Lab sessions:
 
