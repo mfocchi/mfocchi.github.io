@@ -7,11 +7,11 @@ header:
 
 Alpinism for me is going out from my comfort zone to approximate my real self. It is getting to know my limits and accept them. It is experiencing deep emotions that make me feel alive as anything else. It is pleasure in the movement and contemplation of nature. It makes you enter in a kind of meditative state too, because you are 100% in the "here and now". In a nutshell, for me it is the closest that you can have to a spiritual experience.   
 
-
+Here there is a selection of ascents that had some importance for myself, either in term of beauty, adventure and overall commitment. 
 
 **ROCK CLIMBING ASCENTS**
 
-| Mountain                 | Route                           | Difficulty | Length (m) |
+| Mountain/place           | Route                           | Difficulty | Length (m) |
 | ------------------------ | ------------------------------- | ---------- | ---------- |
 | Pizzo Badile             | Cassin                          | VI         | 1200       |
 | Tofana di Rozes          | Costantini Ghedina              | VI-        | 750        |
