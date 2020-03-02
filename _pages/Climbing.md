@@ -1,5 +1,5 @@
 ---
-title: "Climbing"
+Routetitle: "Climbing"
 permalink: /Climbing/
 header:
 
@@ -95,17 +95,58 @@ Here there is a selection of ascents that had some importance for myself, either
 | Pao De Acucar, Brazil                       | via dos italianos                                            | 6b            |            |
 | Turkey                                      | Mount Ararat (5137 m)                                        | F             | 3200       |
 
-**GOULOTTES AND ICE WATERFALL (work in progress)**
+**GOULOTTES AND ICE WATERFALL**
 
-|      |
-| ---- |
-|      |
+| Mountain/place         | Route                                 | Difficulty       | Type      |
+| ---------------------- | ------------------------------------- | ---------------- | --------- |
+| Aiguille de Tour Ronde | Goulotte Delafosse-Perroux            | TD/ 4+ WI/ M4    | Goulotte  |
+| Aiguille du Midì       | Goulotte Le Vent du Dragon            | TD-/ 4 WI/ M5+   | Goulotte  |
+| Triangle du Tacul      | Goulotte  Chere’                      | D+               | Goulotte  |
+| Mont-blanc du Tacul    | Goulotte Modica-Noury (winter ascent) | TD+ / 4+ WI/ M5  | Goulotte  |
+| Torre Innerkofler      | Apparizione                           | ED- / 5+ WI /M5+ | Goulotte  |
+| Valnontey              | Repentance Super                      | 5+ WI            | Waterfall |
+| Valnontey              | Monday Money                          | ED- / 4+ WI      | Waterfall |
+| Forno di Zoldo         | Gran Dama                             | 5+ WI            | Waterfall |
+| Campitello di Fassa    | Rio Pelous                            | 4+ WI            | Waterfall |
+| Ceillac                | Les formes du Chaos                   | 4 WI             | Waterfall |
+| Val D’avers            | Il mostro – Tron                      | 5+ WI            | Waterfall |
+| Val D’avers            | Diedrolux                             | 4+ WI            | Waterfall |
+| Valnontey              | Eknaton                               | 4+ WI            | Waterfall |
+| Valnontey              | Patrì candelone                       | 4 WI             | Waterfall |
+| Valeille               | Tutto è relativo                      | 4 WI             | Waterfall |
+| Ollomont               | Sodoma                                | 5 WI             | Waterfall |
+| Val d'Ayas             | Sbregoretex                           | 4 WI             | Waterfall |
+| Val d'Ayas             | Cortoz di destra                      | 4+ WI            | Waterfall |
+| Cattaragna             | Fantasia                              | 4+ WI            | Waterfall |
 
-**SKI-ALPINISM (work in progress)**
 
-|      |
-| ---- |
-|      |
 
-**ALPINISTIC SUMMITS (work in progress)**
+**SKI-MOUNTANEERING**
+
+| Mountain/place                | Start          | Elevation (m) | Difficulty |
+| ----------------------------- | -------------- | ------------- | ---------- |
+| Alpubuel (4206m)              | Täschhütte     | 1550          | BSA        |
+| Basodino                      | Riale          | 1650          | BSA        |
+| Breithorn occidentale (4165m) | Plato Rosà     |               | BSA        |
+| Corno Nero (4167m)            | Gniffetti      |               | BS         |
+| Ludwigshoe (4342m)            | Gniffetti      |               | BSA        |
+| Punta Calabre (3445m)         | Benevolo       | 1550          | MSA        |
+| Rocca Dell’abisso             | Limonetto      | 1400          | BS         |
+| Cima della piccola            | Ceresole Reale | 1290          | BS         |
+| Enchastraye e Tre vescovi     | Grange         | 1186          | BS         |
+
+
+
+**ALPINISTIC SUMMITS** 
+
+| Mountain/place                 | Route                       | Difficulty            |
+| ------------------------------ | --------------------------- | --------------------- |
+| Mount Ararat (5137m)           | Via Normale                 | F (3000m elevation)   |
+| Castore (4225m)                | Traversata NO-SE            | PD                    |
+| Aiguille de Tour Ronde (3792m) | Canale Gervasutti           | D                     |
+| Gran Paradiso (4.061 m)        | Parete Nord (free-solo)     | D+                    |
+| Aiguille de Tour Ronde (3792m) | Parete Nord (winter ascent) | D-                    |
+| Aletschhorn (4195m)            | Cresta SO                   | PD+ (3000m elevation) |
+| Polluce (4092m)                | Parete Nord (winter ascent) | D+                    |
+| Argentera                      | Canale Lourusa              | AD                    |
 
