@@ -86,6 +86,7 @@ Here there is a selection of ascents that had some importance for myself, either
 | Raimbow Buttress (Morocco, Tafraute)        | Un the con amici (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b/A0;        | 185        |
 | Babouche Buttress (Morocco, Tafraute)       | Via Luciana (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6a            | 140        |
 | Kakaa Wall              (Morocco, Tafraute) | Cascata di cristalli (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b            | 280        |
+| Aguja Mermoz (Patagonia)                    | Pilar Rojo                                                   | ED- / 7a+     | 450        |
 | Morocco, Taghia                             | Baraka                                                       | 7b            | 680        |
 | Morocco, Taghia                             | *Belle et Berbere*                                           | 6b+           |            |
 | Morocco, Taghia                             | Mano del Maroc                                               | 7b            |            |
