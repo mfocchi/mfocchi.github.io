@@ -100,11 +100,11 @@ Here there is a selection of ascents that had some importance for myself, either
 
 | Mountain/place         | Route                                 | Difficulty       | Type      |
 | ---------------------- | ------------------------------------- | ---------------- | --------- |
-| Aiguille de Tour Ronde | Goulotte Delafosse-Perroux            | TD/ 4+ WI/ M4    | Goulotte  |
-| Aiguille du Midì       | Goulotte Le Vent du Dragon            | TD-/ 4 WI/ M5+   | Goulotte  |
+| Aiguille de Tour Ronde | Goulotte Delafosse-Perroux            | TD/ 4+ AI/ M4    | Goulotte  |
+| Aiguille du Midì       | Goulotte Le Vent du Dragon            | TD-/ 4 AI/ M5+   | Goulotte  |
 | Triangle du Tacul      | Goulotte  Chere’                      | D+               | Goulotte  |
-| Mont-blanc du Tacul    | Goulotte Modica-Noury (winter ascent) | TD+ / 4+ WI/ M5  | Goulotte  |
-| Torre Innerkofler      | Apparizione                           | ED- / 5+ WI /M5+ | Goulotte  |
+| Mont-blanc du Tacul    | Goulotte Modica-Noury (winter ascent) | TD+ / 4+ AI/ M5  | Goulotte  |
+| Torre Innerkofler      | Apparizione                           | ED- / 5+ AI /M5+ | Goulotte  |
 | Valnontey              | Repentance Super                      | 5+ WI            | Waterfall |
 | Valnontey              | Monday Money                          | ED- / 4+ WI      | Waterfall |
 | Forno di Zoldo         | Gran Dama                             | 5+ WI            | Waterfall |

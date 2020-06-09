@@ -7,7 +7,7 @@ header:
 
 Lectures in Control of Robots at University of São Paulo:
 
-![](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/pic_course_usp.jpg)
+<img src="https://raw.githubusercontent.com/mfocchi/mfocchi.github.io/master/_data/pic_course_usp.jpg" style="zoom: 50%;" />
 
 
 
