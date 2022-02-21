@@ -8,12 +8,12 @@ header:
 
 **Email:** [michele.focchi@iit.it](mailto:michele.focchi@iit.it); [michele.focchi@unitn.it](mailto:michele.focchi@unitn.it)
 
-**Phone:** +39 0102898278
+**Phone:** +39 0461 283161                                        
 
 **Address:** via Sommarive 9, 38123 Trento TN, Italy
 
 ```
-[/ https://google-map-generator.com/ /]
+<1--- https://google-map-generator.com/ -->
 ```
 
 
