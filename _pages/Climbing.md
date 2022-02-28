@@ -78,23 +78,23 @@ Here there is a selection of ascents that had some importance for myself, either
 
 
 
-| Mountain/place                              | Route                                                        | Difficulty    | Length (m) |
-| ------------------------------------------- | ------------------------------------------------------------ | ------------- | ---------- |
-| Alison Peak (5600m)                         | Welcome to the jungle (first ascent Ballard, Nardi, Focchi, 2017) | VI+ A0/ TD+   | 950        |
-| Fiost Broq (5850m)                          | Amman in Kashmir (first ascent Sanguineti, Cavalli, Focchi, 2017) | 6b/ AI6X/ ED+ | 1300       |
-| Punta Città di Biella (5050m)               | Via delle Poiane (first ascent Sanguineti, Cavalli, Focchi, 2017) | 6b+/TD+       | 450        |
-| Raimbow Buttress (Morocco, Tafraute)        | Un the con amici (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b/A0;        | 185        |
-| Babouche Buttress (Morocco, Tafraute)       | Via Luciana (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6a            | 140        |
-| Kakaa Wall              (Morocco, Tafraute) | Cascata di cristalli (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b            | 280        |
-| Aguja Mermoz (Patagonia)                    | Pilar Rojo                                                   | ED- / 7a+     | 450        |
-| Morocco, Taghia                             | Baraka                                                       | 7b            | 680        |
-| Morocco, Taghia                             | *Belle et Berbere*                                           | 6b+           |            |
-| Morocco, Taghia                             | Mano del Maroc                                               | 7b            |            |
-| Wadi Rum, Jordan                            | Merlin's wand                                                | VII           |            |
-| Wadi Rum, Jordan                            | The beauty                                                   | VI+           |            |
-| Corcovado, Brazil                           | K2                                                           | 6b            |            |
-| Pao De Acucar, Brazil                       | via dos italianos                                            | 6b            |            |
-| Turkey                                      | Mount Ararat (5137 m)                                        | F             | 3200       |
+| Mountain/place                                     | Route                                                        | Difficulty    | Length (m) |
+| -------------------------------------------------- | ------------------------------------------------------------ | ------------- | ---------- |
+| Alison Peak (5600m), Karakorum, Pakistan           | Welcome to the jungle (first ascent Ballard, Nardi, Focchi, 2017) | VI+ A0/ TD+   | 950        |
+| Fiost Broq (5850m), Karakorum, Pakistan            | Amman in Kashmir (first ascent Sanguineti, Cavalli, Focchi, 2017) | 6b/ AI6X/ ED+ | 1300       |
+| Punta Città di Biella (5050m), Karakorum, Pakistan | Via delle Poiane (first ascent Sanguineti, Cavalli, Focchi, 2017) | 6b+/TD+       | 450        |
+| Raimbow Buttress (Morocco, Tafraute)               | Un the con amici (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b/A0;        | 185        |
+| Babouche Buttress (Morocco, Tafraute)              | Via Luciana (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6a            | 140        |
+| Kakaa Wall              (Morocco, Tafraute)        | Cascata di cristalli (first ascent Sanguineti, Pagnoncelli, Focchi, 2018) | 6b            | 280        |
+| Aguja Mermoz (Patagonia)                           | Pilar Rojo                                                   | ED- / 7a+     | 450        |
+| Morocco, Taghia                                    | Baraka                                                       | 7b            | 680        |
+| Morocco, Taghia                                    | *Belle et Berbere*                                           | 6b+           |            |
+| Morocco, Taghia                                    | Mano del Maroc                                               | 7b            |            |
+| Wadi Rum, Jordan                                   | Merlin's wand                                                | VII           |            |
+| Wadi Rum, Jordan                                   | The beauty                                                   | VI+           |            |
+| Corcovado, Brazil                                  | K2                                                           | 6b            |            |
+| Pao De Acucar, Brazil                              | via dos italianos                                            | 6b            |            |
+| Turkey                                             | Mount Ararat (5137 m)                                        | F             | 3200       |
 
 **GOULOTTES AND ICE WATERFALL**
 
