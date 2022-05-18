@@ -152,7 +152,7 @@ You can also find [here](https://www.dropbox.com/sh/5trh0s5y1xzdjds/AACchznJb760
 
 #### **IIT/Dibris, University of Genova, 2020 (Genova, Italy)**
 
-The course is meant to provide to post-graduate students a broad overview on the most common control strategies for fixed-based robots (position, force, impedance, admittance control and inverse dynamics).Modeling of actuators, gear-box, friction and contact models is also briefly discussed. Cartesian space control is presented as well as the extension to floating-base (e.g. legged) robots. The problem of ensuring locomotion stability for a legged robot is tackled both from a projection-based and an optimization-based perspective (Convex Quadratic Programming). A brief introduction to approximated models is also given (Linear Inverted Pendulum and Centroidal Dynamics). They will be used to plan feasible locomotion trajectories (for the Center of Mass of legged robots) by solving an optimal control problem. Different formulations of the optimal control problem are also discussed such as single shooting and direct collocation.  Python templates will be provided to the students to implement in practice what was presented in the theory. The goal of the course is to allow students to design controllers and plan simple trajectories to move a robot in complex scenarios as well as make them aware of pros and cons of the different state-of-the art approaches. 
+The course is meant to provide to post-graduate students a broad overview on the most common control strategies for fixed-based robots (position, force, impedance, admittance control and inverse dynamics).Modeling of actuators, gear-box, friction and contact models is also briefly discussed. Cartesian space control is presented as well as the extension to floating-base (e.g. legged) robots. The problem of ensuring locomotion stability for a legged robot is tackled both from a projection-based and an optimization-based perspective (Convex Quadratic Programming).  Python templates will be provided to the students to implement in practice what was presented in the theory. The goal of the course is to allow students to design controllers and  make them aware of pros and cons of the different state-of-the art approaches. 
 
 ### **Prerequisites:**
 
@@ -163,4 +163,8 @@ Interested people can find:
 - the recordings of the Lectures  [here](https://www.youtube.com/playlist?list=PLpppns-JGSyKFwngvh-DYRBpH9NUdqH4J) 
 
 - the pdf of the slides  [here](https://www.dropbox.com/sh/etxpgbsoxqgoyco/AAAXDiL7nLiHMLSftgZ4A1d5a ) 
+
+- the framework used for the LAB sessions is Locosim: https://github.com/mfocchi/locosim 
+
+  Note that the branch compatible with the video lectures is an old branch called   **controlOfLeggedRobots** 
 
