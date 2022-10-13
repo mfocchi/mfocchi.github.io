@@ -4,7 +4,7 @@ permalink: /about/
 header:
 ---
 
-Michele Focchi is currently a Researcher at [Università di Trento](https://webapps.unitn.it/du/it/Persona/PER0221571/Didattica) and a visiting scientist at Istituto Italiano di Tecnologia. He received both the Bsc. and the Msc. in Control System Engineering from Politecnico di Milano. After gaining some R\&D experience in the industry, in 2009 he joined IIT where he developed a micro-turbine for which he obtained an international patent. 
+Michele Focchi is currently a Researcher at [Università di Trento](https://webapps.unitn.it/du/it/Persona/PER0221571/Didattica) and a visiting scientist at Istituto Italiano di Tecnologia. He is Associate Editor for RA-L. He received both the Bsc. and the Msc. in Control System Engineering from Politecnico di Milano. After gaining some R\&D experience in the industry, in 2009 he joined IIT where he developed a micro-turbine for which he obtained an international patent. 
 In 2013, he got a PhD  in robotics, getting involved in the Hydraulically Actuated Quadruped Robot project.
 He initially was developing torque controllers for locomotion purposes, subsequently he moved to higher level (whole-body) controllers and model identification. 
 He was also investigating locomotion strategies that are robust to uncertainties and work reliably on real platforms. Currently his research interests are focused on pushing the performances of quadruped robots in traversing unstructured environments, by using optimization-based planning strategies to perform dynamic motion planning. On 2022 he joined University of Trento where he teaches courses on Robotics. He published more than 42 papers in international journals and conferences and supervised several master and PhD thesis.
