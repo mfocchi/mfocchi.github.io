@@ -39,7 +39,7 @@ He was also investigating locomotion strategies that are robust to uncertainties
 
 - Digital agriculture 
 
-  You can check more about these in my Youtube Research [playlist](https://youtu.be/EDFLRiDWsjw?feature=shared)
+  You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
 
 **Projects I was involved:**
 
