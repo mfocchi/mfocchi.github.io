@@ -38,7 +38,7 @@ This course will assume an intuitive grasp of concepts from linear algebra, a go
 - Linear dynamical systems: linear systems, state space, transfer function, poles/zeros.
 - Programming: object-oriented programming (if-else, for loops, classes, objects, inheritance)
 
-[Here](https://www.dropbox.com/sh/6mrnlze5vo8cyb1/AABbNjY4bkSgKmivA-t3LOgaa?dl=0) you can find videos and [here](https://www.dropbox.com/sh/if2lq3s6c0zayxl/AADr7SYiQU1Zn96tLKv7NnXwa?dl=0) slides of all the lectures of the first academic  year (20 /21)
+[Here](https://youtu.be/kN7llbDnH_s?si=G9WStw_x5k5KUtHn) you can find videos and [here](https://www.dropbox.com/sh/if2lq3s6c0zayxl/AADr7SYiQU1Zn96tLKv7NnXwa?dl=0) slides of all the lectures of the first academic  year (20 /21)
 
 You can also find [here](https://www.dropbox.com/sh/5trh0s5y1xzdjds/AACchznJb7606MbQKb6-fUiUa) a virtual machine (password:  student) containing the Python software needed for the lab sessions (for the Matlab lab code send me an email).
 
