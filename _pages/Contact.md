@@ -6,7 +6,7 @@ header:
 
 **[Facebook](https://www.facebook.com/mfocchi80)**  ||  **[YouTube](https://www.youtube.com/user/mfocchichannel)**  ||  **[GitHub](https://github.com/kiranchhatre)**  || **[LinkedIn](https://github.com/mfocchi)**
 
-**Email:** [michele.focchi@iit.it](mailto:michele.focchi@iit.it); [michele.focchi@unitn.it](mailto:michele.focchi@unitn.it)
+**Email:** [michele.focchi@unitn.it](mailto:michele.focchi@unitn.it)
 
 **Phone:** +39 0461 283161                                        
 
