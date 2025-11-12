@@ -4,7 +4,7 @@ permalink: /Contact/
 header:
 ---
 
-**[Facebook](https://www.facebook.com/mfocchi80)**  ||  **[YouTube](https://www.youtube.com/user/mfocchichannel)**  ||  **[GitHub](https://github.com/kiranchhatre)**  || **[LinkedIn](https://github.com/mfocchi)**
+**[Facebook](https://www.facebook.com/mfocchi80)**  ||  **[YouTube](https://www.youtube.com/user/mfocchichannel)**  ||  **[GitHub](https://github.com/mfocchi)**  || **[LinkedIn](https://github.com/mfocchi)**
 
 **Email:** [michele.focchi@unitn.it](mailto:michele.focchi@unitn.it)
 
