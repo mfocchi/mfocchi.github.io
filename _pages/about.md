@@ -36,30 +36,50 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 - Torque control 
 
 
+---
 
-**Projects I was involved:**
 
+### **Projects I Was Involved In**
 
-- 01/2021 - 31/12/2022
-European Space Agency - Autonomous Non-Wheeled all-Terrain Rover(ANT) - 400keuro
-This project is a joint work carried out by the German Research Center for Artificial Intelligence
-(DFKI), IIT and Airbus Defence and Space Ltd. (ADS). The objective of the activity is to develop the
-ANT navigation system for legged robots. It will be able to perceive the terrain, to plan a path to a desired
-3goal and to control the path execution while traversing unconsolidated, inclined, and rugged terrain. A
-modular generic approach is being developed to exploit the potential of robots with four (quadrupeds) as
-well as with six legs (hexapods).
+---
 
-- 09/2017 - 31/12/2022
-INAIL - The Teleoperazione project - 5.4 Meuro. This project aims to enhance occupational safety in
-hazardous environments through substitution, i.e., removing the worker from the unsafe area and using
-robotic technologies to do the same tasks through remote robotic teleoperation. The project proposes a
-collaborative system: a centaur-like robot featuring a hydraulically-driven quadruped platform, a dexter-
-ous manipulator arm, and advanced 3D user interfaces designed for intuitive remote teleoperation. The
-manipulator will have enough degrees of freedom to ensure dexterity. The human-robot interface will be
-improved with augmented reality with tactile feedback for tele-operation.
+#### **02/2026 – 12/2026**  
+**Fondazione VRT – il bando “Future of Work”** [(link)](https://www.fondazionevrt.it/15-future-of-work-2025) – **28k euro**
 
-- 09/2016 - 07/2018
-HyQ-REAL (EU funded FP7 ECHORD++ experiment- 300keuro)
-Bring HyQ from the research lab to the real-world application. Developing planning algorithms for loco-
-motion on unstructured terrain.
+In this call I received funding to build a new prototype of **ALPINE**, a novel rope-assisted climbing robot for autonomous, energy-efficient maintenance in hazardous alpine environments.
 
+---
+
+#### **07/2024 – 10/2026**  
+**EUREGIO Mobility Fund – VIII edition** [(link)](https://www.unitn.it/it/news/354) – **6k euro**
+
+In this call I received funding to organize a summer school on legged robots. The application involved two partners: **UNITN** and **UNIBZ**.
+
+---
+
+#### **01/2021 – 31/12/2022**  
+**European Space Agency – Autonomous Non-Wheeled all-Terrain Rover (ANT)** – **400k euro**
+
+This project is a joint work carried out by the **German Research Center for Artificial Intelligence (DFKI)**, **IIT**, and **Airbus Defence and Space Ltd. (ADS)**.  
+
+The objective of the activity is to develop the ANT navigation system for legged robots. It will be able to perceive the terrain, to plan a path to a desired goal and to control the path execution while traversing unconsolidated, inclined, and rugged terrain.  
+
+A modular generic approach is being developed to exploit the potential of robots with four (quadrupeds) as well as with six legs (hexapods).
+
+---
+
+#### **09/2017 – 31/12/2022**  
+**INAIL – The Teleoperazione project** – **5.4M euro**
+
+This project aims to enhance occupational safety in hazardous environments through substitution, i.e., removing the worker from the unsafe area and using robotic technologies to do the same tasks through remote robotic teleoperation.  
+
+The project proposes a collaborative system: a centaur-like robot featuring a hydraulically-driven quadruped platform, a dexterous manipulator arm, and advanced 3D user interfaces designed for intuitive remote teleoperation.  
+
+The manipulator will have enough degrees of freedom to ensure dexterity. The human-robot interface will be improved with augmented reality with tactile feedback for tele-operation.
+
+---
+
+#### **09/2016 – 07/2018**  
+**HyQ-REAL (EU funded FP7 ECHORD++ experiment)** – **300k euro**
+
+Bring HyQ from the research lab to the real-world application. Developing planning algorithms for locomotion on unstructured terrain.
