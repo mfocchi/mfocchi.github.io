@@ -39,7 +39,7 @@ Here there is a selection of ascents that had some importance for myself, either
 | Sergent                  | La nicchia delle torture        | 6b         |            |
 | Caporal                  | Diedro Nanchez                  | 6b         |            |
 | Scoglio di Mrotz         | Via Gogna                       | 6a         |            |
-| Torre di Aimonin         | La via degli specchi            | 6c         |            |
+| Torre di Aimonin         | La casa degli specchi           | 6c         |            |
 | Becco della tribolazione | Grassi Re                       | 6a+        |            |
 | Becco di Valsoera        | Melano Perego                   | 6b         |            |
 | Val di Mello             | Risveglio di Kundalini          | VI+        |            |
