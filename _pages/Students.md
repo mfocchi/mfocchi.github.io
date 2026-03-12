@@ -74,6 +74,8 @@ This page lists Bachelor, Master, PhD theses and internships supervised over the
   *MSc Thesis — **Main supervisor***  
   Università di Trento
 
+  [Thesis PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/thesisMalacarne26.pdf)
+  
 - **Riccardo Bussola** (2022–2024)  
   *BSc/MSc Thesis — **Main supervisor***  
   Università di Trento  
