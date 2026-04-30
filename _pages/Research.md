@@ -119,14 +119,14 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 - **Trajectory and Foothold Optimization using Low-Dimensional Models for Rough Terrain Locomotion**. *ICRA*, 2017. [PDF](https://iit-dlslab.github.io/papers/mastalli17icra.pdf)
 
 ### 2016
-- **Towards a Multi-Legged Mobile Manipulator**. *ICRA*, 2016. [Publisher](https://doi.org/10.1109/ICRA.2016.7487545)
-- **A Design Method of a Robust Controller for Hydraulic Actuation with Disturbance Observers**. *AMC*, 2016. [Publisher](https://doi.org/10.1109/AMC.2016.7496365)
+- **Towards a Multi-Legged Mobile Manipulator**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16brehman.pdf)
+- **A Design Method of a Robust Controller for Hydraulic Actuation with Disturbance Observers**. *AMC*, 2016. [PDF](https://iit-dlslab.github.io/papers/kuwahara16acm.pdf)
 - **Hierarchical Planning of Dynamic Movements without Scheduled Contact Sequences**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16mastalli.pdf)
 
 ### 2015
 - **Slip Detection and Recovery for Quadruped Robots**. *ISRR*, 2015. [PDF](https://iit-dlslab.github.io/papers/focchi15isrr.pdf)
 - **Design of a Hydraulically Actuated Arm for a Quadruped Robot**. *CLAWAR*, 2015. [PDF](https://iit-dlslab.github.io/papers/rehman15clawar.pdf)
-- **Planning and Execution of Dynamic Whole-Body Locomotion for a Hydraulic Quadruped on Challenging Terrain**. *ICRA*, 2015. [Publisher](https://iit-dlslab.github.io/papers/winkler15icra.pdf)
+- **Planning and Execution of Dynamic Whole-Body Locomotion for a Hydraulic Quadruped on Challenging Terrain**. *ICRA*, 2015. [PDF](https://iit-dlslab.github.io/papers/winkler15icra.pdf)
 - **Design Overview of the Hydraulic Quadruped Robots HyQ2Max and HyQ2Centaur**. *14th Scandinavian International Conference on Fluid Power (SICFP)*, 2015.  [PDF](https://iit-dlslab.github.io/papers/semini15sicfp.pdf)
 
 ### 2014
@@ -134,7 +134,7 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 
 ### 2013
 - **Local Reflex Generation for Obstacle Negotiation in Quadrupedal Locomotion**. *CLAWAR*, 2013. [PDF](https://iit-dlslab.github.io/papers/focchi13clawar.pdf)
-- **Vision Enhanced Reactive Locomotion Control for Trotting on Rough Terrain**. *TePRA*, 2013. [Publisher](https://doi.org/10.1109/TePRA.2013.6556347)
+- **Vision Enhanced Reactive Locomotion Control for Trotting on Rough Terrain**. *TePRA*, 2013. [PDF](https://iit-dlslab.github.io/papers/bazeille13tepra.pdf)
 
 ### 2012
 - **On the Role of Load Motion Compensation in High-Performance Force Control**. *IROS*, 2012. [PDF](https://iit-dlslab.github.io/papers/boaventura12iros.pdf)
