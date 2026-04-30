@@ -16,6 +16,8 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 
 - Climbing robots
 
+- Aerial motions for quadruped robots
+
 - Space exploration with legged robots 
 
 - Model predictive control applied to locomotion of legged robots
