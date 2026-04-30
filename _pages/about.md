@@ -11,29 +11,6 @@ He is an Associate Editor for RA-L and the ICRA conference. He has authored or c
 
 
 
-**Previous research works (in chronological order):**
-
-You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
-
-- Digital agriculture 
-
-- Climbing robots
-
-- Space exploration with legged robots 
-
-- Model predictive control applied to locomotion of legged robots
-
-- Dynamic planning for aerial motions
-
-- Heuristic planning on rough terrain for quadruped locomotion
-
-- Development of reactive modules for locomotion (e.g. step reflex, slip recovery algorithms)
-
-- Model identification
-
-- Whole-body control 
-
-- Torque control 
 
 
 ---
