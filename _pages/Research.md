@@ -7,32 +7,88 @@ classes: wide
 mathjax: "true"
 ---
 
+My research lies at the intersection of **control**, **optimization**, and **machine learning**, highlighting a strong degree of **multidisciplinarity**. My work has evolved from low-level controllers to whole-body control, model identification, and uncertainty-aware motion planning based on optimization techniques for real-world applications. I am particularly known for my pioneering contributions to heuristic locomotion strategies for quadruped robots operating in rough terrain.
 
-# Research topics (in chronological order) #
+More recently, I have steered my research toward hybrid approaches combining AI and model-based techniques for motion planning, while also exploring innovative robotic platforms such as a rappelling robot for hydro-geological risk mitigation and systems for cooperative aerial transportation and manipulation. Driven by the department’s research interests, I have also begun investigating planning and control strategies for tracked robots in agricultural applications.
+
+Below, I summarize in greater detail the research topics I have been involved in during the 2022–2026 period. Wherever applicable, hyperlinks to supervised student theses are provided next to each topic title.
+
+## Reinforcement Learning for Legged Robots
+
+### Model Predictive Shielding — Safe RL
+
+Research on safety-critical locomotion control for quadruped robots under large external disturbances using Model Predictive Safety (MPS) frameworks. Developed adaptive switching strategies between nominal locomotion policies and robust backup policies to preserve robot balance and guarantee recovery. Proposed a learned probabilistic safety value function to predict loss of stability and estimate recoverability without computationally expensive rollout simulations, enabling real-time implementation on physical platforms.
+
+### Residual Learning
+
+Research on distributed sensing and adaptive learning for quadruped locomotion, introducing a multi-IMU architecture with link-mounted inertial sensors to improve perception of localized contact interactions and unmodeled dynamics. Developed online learning frameworks combining proprioceptive and temporal IMU data to estimate contact events, slippage, payload variations, and actuator friction, enabling real-time compensation of modeling errors and improved robustness during dynamic locomotion.
+
+### Guided RL for Aerial Motions  
+*(Theses: [Bussola](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/bussola_msc_thesis.pdf), [Roscia](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/roscia23PhdThesis.pdf))*
+
+Research on Guided Reinforcement Learning approaches for generating optimal jumping motions by integrating physics-informed priors into the learning process. The proposed formulation targets the specific task of jumping by restricting the RL action space through physically informed parameterizations, resulting in a more structured policy space while still leveraging existing learning methodologies.
+
+Compared to standard end-to-end approaches, the method reduces the search space, improves sample efficiency, and requires significantly less reward engineering. Landing is achieved using a model-based reactive planner, which continuously recalculates foothold locations to bring the robot to a stop without rebounding.
+
+## Loco-manipulation  
+Research on loco-manipulation with centaur robots in contact-rich environments, with particular focus on non-prehensile interaction tasks involving pushing and physical assistance (e.g., wheelchairs). This research investigates hybrid control architectures combining sampling-based Model Predictive Control (MPPI) and online parameter estimation for *simultaneous* motion control and inference of object properties such as mass, inertia, and friction.
+
+Proposed a unified rollout-based framework capable of adapting robot behavior online without predefined contact schedules or force sensing. The work addresses key challenges in contact-rich robotics, including intermittent contacts, hybrid dynamics, and online adaptation to unknown payloads and interaction conditions. Particular emphasis is placed on GPU-accelerated simulation and massively parallel rollout evaluation for real-time onboard deployment.
+
+## Agrifood  
+Motivated by the challenges posed by an aging population and the urgent need for pesticide reduction, this research studies tracked vehicles for precision agricultural robotics applications. Tracked robots perform better on rough terrain due to the large contact area between the tracks and the ground, but they rely on skid steering for turning.
+
+The complexity of modeling the system, particularly the intricate terramechanics dynamics arising from soil–track interactions, makes the design of theoretically grounded navigation solutions especially challenging. This research investigates slippage-aware planning and control strategies while also enabling smooth transitions between human operator inputs and autonomous control.
+
+## Numerical Optimization
+
+In the field of legged robotics, I aim to address a key research challenge in the use of numerical optimization for trajectory planning. This research investigates methods to concurrently optimize both the sequence of contacts and their duration within a Model Predictive Control (MPC) framework.
+
+Legged robots exhibit hybrid dynamics, and optimization of contact sequences is typically handled using Mixed-Integer approaches, which often suffer from high computational demands. My goal is to investigate parallel optimization techniques to enable real-time computation and deployment on physical robotic platforms.
+
+## Robotics Applied to Construction
+
+I collaborate as a scientific advisor with the robotics company **Address Robotics**, operating in the field of automated construction. Their goal is to employ legged robots and automated cranes for the autonomous assembly of prefabricated elements, enabling continuous progress monitoring while minimizing costly rework operations.
+
+This research proposes a framework to automate a large number of construction-site processes by leveraging:
+
+1. Heavy-duty legged robots capable of navigating challenging construction environments  
+2. Automated cranes  
+3. AI-driven navigation, coordination, and cooperation strategies  
+
+## Novel Robotic Platforms
+
+In addition to theoretical research, I am actively involved in the prototyping and development of advanced robotic systems for a variety of applications.
+
+### ALPINE Rappelling Robot  
+*(Theses: [Hardonk](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/Luca_Hardonk_thesis.pdf), [Malacarne](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/thesisMalacarne26.pdf))*
+
+This research involves the development of robotic platforms combining rope-based locomotion and legged systems to address maintenance and inspection challenges in steep, remote, and hazardous environments.
+
+One of these projects is **ALPINE**, an innovative climbing robot designed to reduce the risks and costs associated with operations on mountain slopes and vertical infrastructures, where human intervention is often dangerous and expensive.
+
+The platform combines rope-assisted locomotion, jumping capabilities, and aerial stabilization to navigate complex environments while carrying heavy tools for tasks such as drilling, inspection, and maintenance. By leveraging optimal control and advanced optimization techniques, planning algorithms are developed to coordinate leg impulses with energy-efficient rope winding and unwinding, together with online model predictive strategies for disturbance rejection during flight.
+
+The project required multidisciplinary expertise spanning mechanical design, pneumatics, electronics, mechatronics, perception, optimization-based motion planning, and remote supervision systems for real-time monitoring and teleoperation. A prototype of the system has been built, and ongoing research currently focuses on the development of a thrust-based control system to stabilize the robot’s orientation during the flight phase.
+
+Another research direction focuses on the development of a bi-level optimization framework combining genetic algorithms and nonlinear optimization for contact scheduling and optimal multi-jump planning of climbing robots. The approach addresses actuator limitations by decomposing large jumps into sequences of smaller feasible motions while accounting for obstacle avoidance and landing quality on complex vertical surfaces and meshes.
+
+### Cooperative Aerial Manipulation  
+*(Thesis: [Sangiorgio](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/sangiorgioMscThesis.pdf))*
+
+**CO-FAST** (“Cooperative and Optimization-based Framework for Aerial Manipulation”) introduces a complete framework for the control and planning of cooperative aerial manipulation using swarms of drones connected to loads through motorized cables.
+
+Each UAV is equipped with electrically driven winches that allow adjustment of cable lengths to manipulate the load. This configuration forms a floating-base parallel kinematic structure enabling precise 6D manipulation while simplifying swarm formation control.
+
+The ability to adjust cable lengths introduces additional degrees of freedom, allowing load manipulation (such as orientation or height variations) to be decoupled from the swarm flight configuration. Furthermore, the capability to dynamically modify swarm geometry increases robustness against environmental disturbances such as wind and turbulence, improves aerodynamic efficiency inspired by bird flocking behavior, and enables modulation of the overall system stiffness.
+
+This feature provides unprecedented positioning accuracy when required while also enabling acceleration and deceleration of the load without inducing unwanted oscillations. CO-FAST enables innovative wildfire suppression strategies and has applications in transportation, handling, and automated assembly of loads in construction sites and remote areas.
+
+
 
 You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
 
-- Digital agriculture 
 
-- Climbing robots
-
-- Aerial motions for quadruped robots
-
-- Space exploration with legged robots 
-
-- Model predictive control applied to locomotion of legged robots
-
-- Dynamic planning for aerial motions
-
-- Heuristic planning on rough terrain for quadruped locomotion
-
-- Development of reactive modules for locomotion (e.g. step reflex, slip recovery algorithms)
-
-- Model identification
-
-- Whole-body control 
-
-- Torque control 
 
 # Publications
 
