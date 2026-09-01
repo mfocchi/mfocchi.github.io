@@ -113,7 +113,15 @@ This page lists Bachelor, Master, PhD theses and internships supervised over the
 
 ## BSc Theses
 
-- **Luca Hardonck** (2025, ongoing)  
+- **Alessandro Chen** (2026)  
+  *BSc Thesis — **Main supervisor***  
+  Università di Trento  
+  [Thesis PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/Chen_Bachelor26.pdf)
+- **Andrea Dalla Villa** (2026)  
+  *BSc Thesis — **Main supervisor***  
+  Università di Trento  
+  [Thesis PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/Dalla_Villa_Andrea_Bachelor26.pdf)
+- **Luca Hardonck** (2025)  
   *BSc Thesis — **Main supervisor***  
   Università di Trento  
   [Thesis PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/Luca_Hardonk_thesis.pdf)
