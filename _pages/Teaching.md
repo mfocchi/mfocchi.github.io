@@ -5,11 +5,27 @@ header:
 
 ---
 
+
+
+# Legged robots summer school (WHERE)
+
+#### **Department of Information Engineering and Computer Science (DISI),   University of Trento, (Trento, Italy)**
+
+The lectures in this course are organized into three main areas: Modeling, Control, and Planning. Each area presents key results from the literature, with a particular focus on legged robots. The Control section provides a comprehensive overview of the most common control strategies for the dynamic control of robotic systems, with emphasis on legged robots (bipeds and quadrupeds). The topics include position, force, impedance, admittance control, and inverse dynamics. Cartesian-space control is presented together with its extension to floating-base systems (e.g., legged robots). The problem of ensuring locomotion stability is addressed both from a projection-based and an optimization-based perspective, including Convex Quadratic Programming formulations. In the Modeling section, a concise introduction to approximated models—such as the Linear Inverted Pendulum, Single Rigid Body Model, and Centroidal Dynamics—is provided, along with a discussion of their advantages and limitations. These models are later employed to plan feasible Center of Mass (CoM) trajectories for legged robots by solving optimal control problems in the Planning section. The Planning part also discusses different formulations of the direct optimal control problem, including single shooting, multiple shooting, and direct collocation. Model Predictive Control (MPC) strategies for real-time applications are presented, with a particular focus on feasibility and stability guarantees. Sample-based approaches to MPC are also briefly introduced. Finally, the course concludes with an introduction to State Estimation and Reinforcement Learning, highlighting algorithms capable of operating under weaker assumptions (e.g., limited model knowledge or imperfect sensing) compared to model-based methods. These approaches are shown to generate robust trajectories in real-world scenarios. Throughout the course, Python-based hands-on exercises will allow students to implement and test the concepts covered in the lectures on practical problems such as legged locomotion on flat terrain. The goal of the course is to enable students to design controllers and plan simple locomotion trajectories for robots in complex environments, while developing a critical understanding of the advantages and limitations of various state-of-the-art approaches. The course combines both theoretical foundations and practical implementation, relying on Python and open-source libraries for robot visualization, multi-body dynamics computation, and trajectory optimization. The final hours of each day will be dedicated to practical exercises. On Friday afternoon, the last two hours will feature a live session with the Go2 quadruped, during which participants will test the developed software.
+
+- the recordings of the Lectures, the slides and the software for the practical sessions can be found [here](https://github.com/idra-lab/where_summer_school) 
+
+
+
 # Fundamental of Robotics
 
 #### **Department of Information Engineering and Computer Science (DISI),   University of Trento, (Trento, Italy)**
 
 ﻿The panorama of robotics has undergone a significant change in the last decade. Until the early years of this century, robots were seen as heavy and dangerous machines used to perform rigidly defined tasks within controlled and structured environments. Recent advances in artificial intelligence have had a profound impact on the types of activities a robot can perform and the level of safety and reliability with which these activities can be carried out. Modern robots assist the elderly or disabled, work side by side with human workers, and drive on highways with little or no assistance. This paradigm shift requires the robot to perceive and understand the surrounding environment, autonomously plan an appropriate course of action for a task, and ensure its correct execution, reacting appropriately to unforeseen events. To design a machine of this complexity, engineers need various skills that touch on different disciplines. Robots are physical machines created by humans, so their movement can be analyzed and controlled through appropriate mathematical models. Robots move in a partially known environment, so they must create a map of the surrounding environment, localize themselves within the environment, detect, classify, and recognize the different objects they interact with. Robots must be autonomous or semi-autonomous, so they need the ability to decide on a sequence of actions (a plan), implement it within appropriate safety limits, and adapt it to changes as needed. Finally, robots incorporate computer machines that need to be programmed using appropriate languages and frameworks. In this course bachelor students will be introduced to each of these different aspects and will have the opportunity to put them into practice using our advanced teaching laboratories and facilities. After completing the course, they will be able to pursue a career as robotic application developers and/or continue with advanced studies in the field of intelligent robots.
+
+- the framework used for the LAB sessions is Locosim: https://github.com/mfocchi/locosim (check fdr_exercises folder)
+
+  
 
 # **Introduction To Robotics**
 
@@ -27,128 +43,23 @@ header:
 
 \- implement, tune, and test control algorithms with the Python language
 
-### Prerequisites
+you can find videos and  slides of all the lectures of the first academic  year (20 /21)
 
-This course will assume an intuitive grasp of concepts from linear algebra, a good understanding of linear ordinary differential equations, and a moderate level of mathematical maturity in linear systems. If the student is unsure to meet this criteria, below are a few representative prerequisite topics that we will draw upon:
+You can also find [here](https://www.dropbox.com/sh/5trh0s5y1xzdjds/AACchznJb7606MbQKb6-fUiUa) a virtual machine (password:  student) containing the Python software needed for the lab sessions.
 
-- Mechanics: basic Newtonian dynamics in 3D, work, kinetic potential energy
-- Electrics: voltage, current, ohms law.
-- Linear algebra: eigenvalues, eigenvectors, rank, null space, positive definite matrices
-- Multivariable differential calculus: gradient, Jacobian, Taylor series, chain rule
-- Linear dynamical systems: linear systems, state space, transfer function, poles/zeros.
-- Programming: object-oriented programming (if-else, for loops, classes, objects, inheritance)
+- the syllabus can be found  [here](https://github.com/mfocchi/mfocchi.github.io/blob/master/_pages/syllabus_introrob.md)
 
-[Here](https://youtu.be/kN7llbDnH_s?si=G9WStw_x5k5KUtHn) you can find videos and [here](https://www.dropbox.com/sh/if2lq3s6c0zayxl/AADr7SYiQU1Zn96tLKv7NnXwa?dl=0) slides of all the lectures of the first academic  year (20 /21)
+- the recordings of the Lectures are [here](https://youtu.be/kN7llbDnH_s?si=G9WStw_x5k5KUtHn) 
 
-You can also find [here](https://www.dropbox.com/sh/5trh0s5y1xzdjds/AACchznJb7606MbQKb6-fUiUa) a virtual machine (password:  student) containing the Python software needed for the lab sessions (for the Matlab lab code send me an email).
+- the pdf of the slides are  [here](https://www.dropbox.com/sh/if2lq3s6c0zayxl/AADr7SYiQU1Zn96tLKv7NnXwa?dl=0)
 
-### **Syllabus**
+- the framework used for the LAB sessions is Locosim: https://github.com/mfocchi/locosim (check introrob_exercises folder)
 
+  
 
 
-#### **Introduction**
 
-**- Introduction to robotics**: What is a robot? Robots History. Robot classification. Evolution toward Industrial robots. Other kind of robots: service robots, exoskeletons. Under-actuated robots: underwater robots, space robots, drones, legged robots, humanoids, quadrupeds.
-
-\- **Robot’s functional units:** Mechanical Structure: joints, links, end-effector, workspace, robot classification based on joint arrangement. Overview of functional units of a robot: sensors, actuators, etc. Overview of the main robotics topics: control, perception, estimation, planning.
-
-
-
-#### **Sensors**
-
-**- Introduction to measurement:** properties of a measurement system (accuracy, repeatability, uncertainty), sensors characteristics (sensitivity, range, resolution, dynamic response), type of measurements errors (systematic, random). Non idealities in sensors: non-linearity, offset, scaling, dead-band, hysteresis.
-
-**- Proprioceptive sensors:** Types of (propio-ceptive) sensors. Position sensors (potentiometers, relative/absolute encoders) quantization noise, contact switches, LDR, inertial sensors (accelerometers, gyros).
-
-**- Exteroceptive sensors:** Types of extero-ceptive sensors. Force sensors (strain gauges, reading/mounting of strain gauges, wheatstone bridge, F/T 6 axis force sensors). Vision sensors. Passive cameras, stereo camera, triangulation in stereo-vision. Camera modeling (pinhole model), camera calibration. Active sensors: LiDAR, Structured light sensors, basic image processing, visual odometry, state estimation, point cloud. Proxy-sensors.
-
-**- Signal processing:** Analog/discrete signals. Sampling, quantization and reconstruction (A/D, D/A converters). Problems in digital implementation: quantization errors, delays, aliasing (Nyquist theorem). Low-pass filter (discrete implementation). Basic signal processing: average, moving average, weighted average.
-
-
-
-#### **Actuators**
-
-**- Typer of actuators:** types of actuators in robotics:  pneumatic, hydraulic actuators, EHAs, electric motors, Series elastic actuators.
-
-**- Electrical actuators:** Review of some useful notions of physics. Synchronous/ Asynchronous AC Motor, brushed/brushless DC Motor, efficiency, model of a DC motor steady state response. Motor control : voltage / current.
-
-**- Transmissions**: types of transmissions, modeling transmission, gearbox,  Optimal choice of reduction ratio, modeling elasticity in transmission.
-
-**- Non idealities:** Non idealities in actuators: modeling friction, back-lash, dead-band
-
-**- Simulation of actuators:** Simulation of actuators: state space dynamics of a DC motor, discrete equivalent model, integration of dynamics, time responses.
-
-
-
-#### **Control basics**
-
-**- Introduction to control:** open loop control, feed-back concept, bang-bang controller, transient/steady-state response, static/dynamic control specifications, design of a controller.
-
-**- PID:** P, PD, PID control, current control, anti-windup technique
-
-**- Implementation of PID:**  realizability issue of PID, Digital PID, tuning techniques for PID.
-
-
-
-#### **Kinematics:**
-
-**- Kinematics of a rigid body** Position and orientation of a rigid body. Reference frames. Rotation matrices (properties, composition, and interpretations). Derivative of a rotation matrix. Minimal representations of orientation. Skew-symmetric matrices. Exponential maps and the Rodríguez formula. Euler angles. Relation between Euler rates and angular velocity. Unit quaternions.
-
-\- **Manipulator direct kinematics:** Definition of forward and inverse kinematics. Joint, task and actuation spaces. Generalized coordinates. Forward kinematics of robot manipulators. Homogeneous transformations (properties, composition and interpretations). Inverse of a homogeneous transformation matrix. Frame placement. Direct kinematics of a kinematic chain.
-
-**- Inverse Kinematics:** Definition of inverse kinematics. Solvability and workspace. Closed form (analytical) solutions. Examples.  
-
-**- Direct Differential Kinematics:** Linear and angular velocity of a rigid body. Linear and velocity of a manipulator link driven from prismatic or revolute joints. Contribution of prismatic and revolute joints to end-effector velocity. The Geometric Jacobian. The Analytical Jacobian. Relationship between Geometric and Analytical Jacobian.
-
-**- Numerical Inverse Kinematics:** Gauss-Newton iterative approach. Pathological cases . Line search. Discussion on multiple solutions.
-
-**- Redundancy and Singularities:** Definition of redundancy. Redundant manipulators. Primer on linear algebra sub-spaces. Redundancy and vector null space. The pseudo-inverse. Geometric interpretation of inverse kinematics mapping. Singular values. Definition of singularity. Types of singularities. Inverse differential kinematics and singularities. Damped least-squares method. Higher order differential inversion. 
-
-
-
-#### **Dynamics:**
-
-**- Statics:** statics vs. dynamics. Principle of virtual works. Kineto-static duality and analysis of sub-spaces. Velocity and force transformations.
-
-\- **Dynamic of a rigid body:** Kinetic energy of a rigid body. Examples of moments of inertia. Potential gravitational energy.  Euler-Lagrange method. Contribution of non consevative forces. Linearity of the model in the dynamic parameters. Analysis of inertial couplings, Coriolis and centrifugal effects. Recursive Newton-Euler method. Examples. 
-
-**- Interaction dynamics:** Rigid and compliant contact models. Constrained robot dynamics. Simulation with a compliant contact model.
-
-\- **Under-actuation:** Definition and examples of under-actuated robots. Modeling of floating base robots. Structure of the floating base dynamics. 
-
-
-
-#### **Joint Space control** 
-
-**-** **PID for manipulators:** Overview of control problems in robotics. The concept of stability. PD, PD + gravity compensation, PID control.
-
-**- Inverse dynamics.** Decentralized vs. centralized control. Feedback linearization in robotics. Joint space Inverse dynamics (Computed torque).
-
-
-
-#### **Task Space Control**
-
-**- Cartesian space control:** inverse kinematics control, direct Cartesian space control. Cartesian PD, PD+ gravity compensation. Inverse dynamics in Cartesian space (non-redundant and redundant case). 
-
-**- Orientation Control:** orientation control with different parametrization of orientation (rotation matrix, angle-axis, Euler angle, quaternions).
-
-**- Interaction Control:** Applications. passive/ active methods. Direct force control. Cartesian space impedance control, concept of inertia shaping. Superimposition of impedances. Simplified formulations. Compliance control. Selection of impedance parameters. Torsional impedance. Admittance control. Visual servoing.
-
-### **Lab sessions**
-
-**- Lab Python: i**ntroductory lecture to python programming and to the usage of the *numpy* library
-
-**- Lab Control:** simulation and control of a DC motor, PID design and tuning (Matlab).
-
-**-** **Lab** **Kinematics/Dynamics:** learn to build a robot model using the Unified Robot Description Format (URDF), compute the direct/inverse kinematics of a 4-DoF serial manipulator. Design a reference trajectory with polynomials. Implement the numerical inverse kinematics.  Compute and analyze the forward/inverse dynamics of a 4-DoF serial manipulator using the Recursive Newton-Euler Algorithm (RNEA). 
-
-**- Lab Joint Space Control:** design motion controllers (of increasing complexity) in the joint space for a manipulator in free-motion. Implement a centralized approach (i.e. inverse dynamics). Implement the interaction with the environment with a compliant contact model.
-
-**-** **Lab** **Task Space Control:** design a motion controllers (of increasing complexity) in the task space for a manipulator in free-motion. Implement a centralized approach (i.e. inverse dynamics). Implement the control of the orientation using the angle-axis representation.
-
-
-
-# Course on Control of Legged Robots
+# Control of Legged Robots
 
 #### **IIT/Dibris, University of Genova, 2020 (Genova, Italy)**
 
