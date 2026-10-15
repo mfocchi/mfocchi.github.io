@@ -21,7 +21,7 @@ mathjax: "true"
 .research-js .research-panel > h1:first-child { display: none; }
 </style>
 
-<div class="research-tabbar" id="research-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="topics" aria-selected="false">Topics</button><button type="button" role="tab" data-tab="publications" aria-selected="false">Publications<span class="n">61</span></button></div>
+<div class="research-tabbar" id="research-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="topics" aria-selected="false">Topics</button><button type="button" role="tab" data-tab="journals" aria-selected="false">Publications (Journals)<span class="n">27</span></button><button type="button" role="tab" data-tab="conferences" aria-selected="false">Publications (Conferences)<span class="n">34</span></button></div>
 
 <div class="research-panel" id="research-topics" markdown="1">
 
@@ -110,11 +110,9 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 
 </div>
 
-<div class="research-panel" id="research-publications" markdown="1">
+<div class="research-panel" id="research-journals" markdown="1">
 
-# Publications
-
-## Journal articles
+# Publications (Journals)
 
 ### 2025
 - **Pseudo-Kinematic Trajectory Control and Planning of Tracked Vehicles**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025003793)
@@ -167,11 +165,15 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 ### 2011
 - **Design of HyQ – a Hydraulically and Electrically Actuated Quadruped Robot**. *Journal of Systems and Control Engineering*, 2011. [PDF](https://iit-dlslab.github.io/papers/semini11jsce.pdf)
 
-## Conference papers
+</div>
+
+<div class="research-panel" id="research-conferences" markdown="1">
+
+# Publications (Conferences)
 
 ### 2026
-- **Cooperative and Optimization-based Framework for Aerial Manipulation**. *17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS)*, 2026. [PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/papers/eccomas26.pdf) <!-- TODO: add link -->
-- **Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. [PDF](https://arxiv.org/abs/2604.26910) <!-- TODO: add link -->
+- **Cooperative and Optimization-based Framework for Aerial Manipulation**. *17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS)*, 2026. [PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/papers/eccomas26.pdf)
+- **Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. [PDF](https://arxiv.org/abs/2604.26910)
 
 ### 2024
 - **Distributed Robot Perception for Tracked Vehicles**. *Italian Conference on Robotics and Intelligent Machines (I-RIM)*, 2024. [PDF](https://iit-dlslab.github.io/papers/bussola24irim.pdf)
