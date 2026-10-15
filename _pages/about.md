@@ -17,6 +17,24 @@ He is the organizer of the firs PhD summer school on Legged Robots (WHERE) and D
 
 ---
 
+#### **10/2026 – 10/2027**  
+**ROAD TO MARKET 2026** [(link)](https://www.unitn.it/it/terza-missione/valorizzazione-ricerca/unitrento-linnovazione/bando-poc-di-ateneo-road-market-2026) – **40k euro**
+
+In this call I received funding to build the first prototype of the [CO-FAST](https://www.knowledge-share.eu/en/patents/cooperative-and-optimization-based-framework-for-aerial-manipulation) robotic platform.  
+My role: Principal Investigator.  
+University of Trento, Italy.
+
+---
+
+#### **10/2026 – 10/2027**  
+**EUREGIO Mobility Fund – IX edition** [(link)](https://www.uibk.ac.at/media/filer_public/4e/ac/4eac5398-cf98-4ce3-b8d4-63e9db7a4b7c/euregio_mobfund_call_ix_2026-27.pdf) – **6k euro**
+
+In this call I received funding to organize the second edition of the [WHERE](https://github.com/idra-lab/where_summer_school) summer school on legged robots.  
+My role: Principal Investigator.  
+University of Trento, Italy.
+
+---
+
 #### **02/2026 – 12/2026**  
 **Fondazione VRT – il bando “Future of Work”** [(link)](https://www.fondazionevrt.it/15-future-of-work-2025) – **28k euro**
 

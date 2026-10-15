@@ -7,6 +7,26 @@ classes: wide
 mathjax: "true"
 ---
 
+<style>
+.research-tabbar { display: flex; flex-wrap: wrap; gap: .4em; margin: 1.5em 0 1em; padding-bottom: .8em;
+  border-bottom: 1px solid rgba(128,128,128,.35); }
+.research-tabbar button { font: inherit; font-size: .8em; color: inherit; background: transparent; cursor: pointer;
+  padding: .45em .9em; border: 1px solid rgba(128,128,128,.45); border-radius: 999px; opacity: .8; }
+.research-tabbar button:hover { opacity: 1; }
+.research-tabbar button[aria-selected="true"] { opacity: 1; font-weight: bold; background: rgba(128,128,128,.25);
+  border-color: currentColor; }
+.research-tabbar .n { opacity: .65; margin-left: .3em; font-weight: normal; }
+.research-js .research-panel { display: none; }
+.research-js .research-panel.active { display: block; }
+.research-js .research-panel > h1:first-child { display: none; }
+</style>
+
+<div class="research-tabbar" id="research-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="topics" aria-selected="false">Topics</button><button type="button" role="tab" data-tab="publications" aria-selected="false">Publications<span class="n">61</span></button></div>
+
+<div class="research-panel" id="research-topics" markdown="1">
+
+# Research topics
+
 My research lies at the intersection of **control**, **optimization**, and **machine learning**, highlighting a strong degree of **multidisciplinarity**. My work has evolved from low-level controllers to whole-body control, model identification, and uncertainty-aware motion planning based on optimization techniques for real-world applications. I am particularly known for my pioneering contributions to heuristic locomotion strategies for quadruped robots operating in rough terrain.
 
 More recently, I have steered my research toward hybrid approaches combining AI and model-based techniques for motion planning, while also exploring innovative robotic platforms such as a rappelling robot for hydro-geological risk mitigation and systems for cooperative aerial transportation and manipulation. Driven by the department’s research interests, I have also begun investigating planning and control strategies for tracked robots in agricultural applications.
@@ -88,7 +108,9 @@ This feature provides unprecedented positioning accuracy when required while als
 
 You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
 
+</div>
 
+<div class="research-panel" id="research-publications" markdown="1">
 
 # Publications
 
@@ -146,6 +168,10 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 - **Design of HyQ – a Hydraulically and Electrically Actuated Quadruped Robot**. *Journal of Systems and Control Engineering*, 2011. [PDF](https://iit-dlslab.github.io/papers/semini11jsce.pdf)
 
 ## Conference papers
+
+### 2026
+- **Cooperative and Optimization-based Framework for Aerial Manipulation**. *17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS)*, 2026. [PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/papers/eccomas26.pdf) <!-- TODO: add link -->
+- **Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. [PDF](https://arxiv.org/abs/2604.26910) <!-- TODO: add link -->
 
 ### 2024
 - **Distributed Robot Perception for Tracked Vehicles**. *Italian Conference on Robotics and Intelligent Machines (I-RIM)*, 2024. [PDF](https://iit-dlslab.github.io/papers/bussola24irim.pdf)
@@ -205,7 +231,7 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 - **Control of a Hydraulically-Actuated Quadruped Robot Leg**. *ICRA*, 2010. [PDF](https://iit-dlslab.github.io/papers/icra10focchi.pdf)
 - **Water/Air Performance Analysis of a Fluidic Muscle**. *IROS*, 2010. [PDF](https://ieeexplore.ieee.org/document/5650432)
 
-
+</div>
 
 >   A brief presentation of my research work can be found  [here](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/ResearchPresentation.pdf)   
 
@@ -216,3 +242,32 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 >   The video of my talk at the ICRA workshop on Opportunities and Challenges in Space Robotics ([video](https://youtu.be/LYoq4_mGvCQ))
 
 >   The video of my talk at the University of Porto  ([video](https://youtu.be/70j4qgd30GI))
+
+<script>
+(function () {
+  var bar = document.getElementById('research-tabbar');
+  var panels = document.querySelectorAll('.research-panel');
+  if (!bar || !panels.length) { return; }
+  document.documentElement.classList.add('research-js');
+  bar.hidden = false;
+  function show(key, push) {
+    var found = false;
+    for (var i = 0; i < panels.length; i++) {
+      var on = panels[i].id === 'research-' + key;
+      panels[i].classList.toggle('active', on);
+      found = found || on;
+    }
+    if (!found) { return show(panels[0].id.replace('research-', ''), false); }
+    var btns = bar.querySelectorAll('button');
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].setAttribute('aria-selected', btns[j].getAttribute('data-tab') === key ? 'true' : 'false');
+    }
+    if (push && history.replaceState) { history.replaceState(null, '', '#' + key); }
+  }
+  bar.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (b) { show(b.getAttribute('data-tab'), true); }
+  });
+  show(location.hash.replace('#', '') || panels[0].id.replace('research-', ''), false);
+})();
+</script>
