@@ -62,7 +62,7 @@ Patents, open-source software, robots I helped build, and the experiments that c
 <h2>Wheeled and tracked vehicles</h2>
 <ul class="ach-grid">
 <li><a href="https://www.youtube.com/watch?v=OfC-wzxXLpg"><div class="ach-thumb"><img src="https://i.ytimg.com/vi/OfC-wzxXLpg/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"></div></a><div class="ach-cap"><a href="https://www.youtube.com/watch?v=OfC-wzxXLpg">Shared control of wheeled vehicles for autonomous orchard exploration</a> <span class="y">2025</span></div></li>
-<li><a href="https://www.youtube.com/watch?v=BouAA2m4Su8"><div class="ach-thumb"><img src="https://i.ytimg.com/vi/BouAA2m4Su8/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"></div></a><div class="ach-cap"><a href="https://www.youtube.com/watch?v=BouAA2m4Su8">Slippage-aware controller for tracked vehicles</a> <span class="y">2025</span></div></li>
+<li><a href="https://www.youtube.com/watch?v=TyeZ0vRkI04"><div class="ach-thumb"><img src="https://i.ytimg.com/vi/TyeZ0vRkI04/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"></div></a><div class="ach-cap"><a href="https://www.youtube.com/watch?v=TyeZ0vRkI04">Slippage-aware controller for tracked vehicles</a> <span class="y">2025</span></div></li>
 </ul>
 </section>
 

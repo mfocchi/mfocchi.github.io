@@ -134,7 +134,7 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 <p class="bib-all">All references in one file: <a href="{{ '/assets/data/publications.bib' | relative_url }}" download>publications.bib</a></p>
 
 ### 2025
-- **Pseudo-Kinematic Trajectory Control and Planning of Tracked Vehicles**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025003793) [Video](https://www.youtube.com/watch?v=BouAA2m4Su8) <button type="button" class="bib-btn" data-bib="focchi26ras">BibTeX</button>
+- **Pseudo-Kinematic Trajectory Control and Planning of Tracked Vehicles**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025003793) [Video](https://www.youtube.com/watch?v=TyeZ0vRkI04) <button type="button" class="bib-btn" data-bib="focchi26ras">BibTeX</button>
 - **Smooth Human-Robot Shared Control for Autonomous Orchard Monitoring with UGVs**. *IEEE Transactions on Automation Science and Engineering*, 2025. [PDF](https://iit-dlslab.github.io/papers/elbou25tase.pdf) [Video](https://www.youtube.com/watch?v=OfC-wzxXLpg) <button type="button" class="bib-btn" data-bib="elbou25tase">BibTeX</button>
 - **ALPINE: a Climbing Robot for Operations in Mountain Environments**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025000855) [Video](https://www.youtube.com/watch?v=FqsREaoe-28) <button type="button" class="bib-btn" data-bib="focchi25ras">BibTeX</button>
 
@@ -148,7 +148,7 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 - **Optimization-Based Reference Generator for Nonlinear Model Predictive Control of Legged Robots**. *Robotics*, 2023. [PDF](https://www.mdpi.com/2218-6581/12/1/6) <button type="button" class="bib-btn" data-bib="bratta23mdpi">BibTeX</button>
 
 ### 2021
-- **Model Predictive Control with Environment Adaptation for Legged Locomotion**. *IEEE Access*, 2021. [PDF](https://doi.org/10.1109/ACCESS.2021.3137685) [Video](https://www.youtube.com/watch?v=r0-KIiw0eWM) <button type="button" class="bib-btn" data-bib="rathod21access">BibTeX</button>
+- **Model Predictive Control with Environment Adaptation for Legged Locomotion**. *IEEE Access*, 2021. [PDF](https://doi.org/10.1109/ACCESS.2021.3118957) [Video](https://www.youtube.com/watch?v=r0-KIiw0eWM) <button type="button" class="bib-btn" data-bib="rathod21access">BibTeX</button>
 
 ### 2020
 - **A simple yet effective whole-body locomotion framework for quadruped robots**. *Frontiers in Robotics and AI*, 2020. [PDF](https://hal.science/hal-03005133v2/file/Frontiers20_QuadrupedalWalking.pdf) [Video](https://www.youtube.com/watch?v=O6TSUHiwSlU) <button type="button" class="bib-btn" data-bib="raiola20frontiers">BibTeX</button>
