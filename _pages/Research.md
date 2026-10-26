@@ -19,6 +19,23 @@ mathjax: "true"
 .research-js .research-panel { display: none; }
 .research-js .research-panel.active { display: block; }
 .research-js .research-panel > h1:first-child { display: none; }
+/* paper links: PDF / Video / BibTeX */
+.research-panel li > a, .bib-btn { display: inline-block; font: inherit; font-size: .72em; line-height: 1.4; color: inherit;
+  background: transparent; text-decoration: none; cursor: pointer; padding: .1em .65em; margin: .15em .1em 0 0;
+  border: 1px solid rgba(128,128,128,.5); border-radius: 999px; opacity: .85; vertical-align: .1em; }
+.research-panel li > a:hover, .bib-btn:hover { opacity: 1; border-color: currentColor; }
+.research-panel li > a:focus-visible, .bib-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.bib-all { font-size: .8em; margin: -.4em 0 1.2em; }
+#bib-dialog { width: min(46rem, calc(100vw - 2rem)); padding: 0; border: 1px solid rgba(128,128,128,.45);
+  border-radius: 8px; background: #252a34; color: #eaeaea; }
+#bib-dialog::backdrop { background: rgba(0,0,0,.6); }
+#bib-dialog header { display: flex; align-items: center; gap: .6em; padding: .6em .9em; border-bottom: 1px solid rgba(128,128,128,.35); }
+#bib-dialog header strong { flex: 1; font-size: .8em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#bib-dialog header button { font: inherit; font-size: .75em; color: inherit; background: transparent; cursor: pointer;
+  padding: .3em .8em; border: 1px solid rgba(128,128,128,.5); border-radius: 999px; }
+#bib-dialog header button:hover { border-color: currentColor; }
+#bib-dialog pre { margin: 0; padding: .9em; max-height: 60vh; overflow: auto; font-size: .7em; line-height: 1.5;
+  white-space: pre-wrap; overflow-wrap: anywhere; background: transparent; }
 </style>
 
 <div class="research-tabbar" id="research-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="topics" aria-selected="false">Topics</button><button type="button" role="tab" data-tab="journals" aria-selected="false">Publications (Journals)<span class="n">27</span></button><button type="button" role="tab" data-tab="conferences" aria-selected="false">Publications (Conferences)<span class="n">34</span></button></div>
@@ -114,56 +131,58 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 
 # Publications (Journals)
 
+<p class="bib-all">All references in one file: <a href="{{ '/assets/data/publications.bib' | relative_url }}" download>publications.bib</a></p>
+
 ### 2025
-- **Pseudo-Kinematic Trajectory Control and Planning of Tracked Vehicles**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025003793)
-- **Smooth Human-Robot Shared Control for Autonomous Orchard Monitoring with UGVs**. *IEEE Transactions on Automation Science and Engineering*, 2025. [PDF](https://iit-dlslab.github.io/papers/elbou25tase.pdf)
-- **ALPINE: a Climbing Robot for Operations in Mountain Environments**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025000855)
+- **Pseudo-Kinematic Trajectory Control and Planning of Tracked Vehicles**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025003793) [Video](https://www.youtube.com/watch?v=BouAA2m4Su8) <button type="button" class="bib-btn" data-bib="focchi26ras">BibTeX</button>
+- **Smooth Human-Robot Shared Control for Autonomous Orchard Monitoring with UGVs**. *IEEE Transactions on Automation Science and Engineering*, 2025. [PDF](https://iit-dlslab.github.io/papers/elbou25tase.pdf) [Video](https://www.youtube.com/watch?v=OfC-wzxXLpg) <button type="button" class="bib-btn" data-bib="elbou25tase">BibTeX</button>
+- **ALPINE: a Climbing Robot for Operations in Mountain Environments**. *Robotics and Autonomous Systems*, 2025. [PDF](https://www.sciencedirect.com/science/article/pii/S0921889025000855) [Video](https://www.youtube.com/watch?v=FqsREaoe-28) <button type="button" class="bib-btn" data-bib="focchi25ras">BibTeX</button>
 
 ### 2024
-- **Efficient Reinforcement Learning for 3D Jumping Monopods**. *Sensors*, 2024. [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC11314636/pdf/sensors-24-04981.pdf) 
+- **Efficient Reinforcement Learning for 3D Jumping Monopods**. *Sensors*, 2024. [PDF](https://pmc.ncbi.nlm.nih.gov/articles/PMC11314636/pdf/sensors-24-04981.pdf) <button type="button" class="bib-btn" data-bib="bussola24sensors">BibTeX</button>
 
 ### 2023
-- **Reactive Landing Controller for Quadruped Robots**. *IEEE Robotics and Automation Letters*, 2023. [PDF](https://iit-dlslab.github.io/papers/roscia23ral.pdf)
-- **An Efficient Paradigm for Feasibility Guarantees in Legged Locomotion**. *IEEE Transactions on Robotics*, 2023. [PDF](https://arxiv.org/pdf/2011.07967v2)
-- **Orientation Control System: Enhancing Aerial Maneuvers for Quadruped Robots**. *Sensors*, 2023. [PDF](https://www.mdpi.com/1424-8220/23/3/1234)
-- **Optimization-Based Reference Generator for Nonlinear Model Predictive Control of Legged Robots**. *Robotics*, 2023. [PDF](https://www.mdpi.com/2218-6581/12/1/6)
+- **Reactive Landing Controller for Quadruped Robots**. *IEEE Robotics and Automation Letters*, 2023. [PDF](https://iit-dlslab.github.io/papers/roscia23ral.pdf) [Video](https://www.youtube.com/watch?v=wiuedeHfSEY) <button type="button" class="bib-btn" data-bib="roscia23ral">BibTeX</button>
+- **An Efficient Paradigm for Feasibility Guarantees in Legged Locomotion**. *IEEE Transactions on Robotics*, 2023. [PDF](https://arxiv.org/pdf/2011.07967v2) <button type="button" class="bib-btn" data-bib="abdalla23tro">BibTeX</button>
+- **Orientation Control System: Enhancing Aerial Maneuvers for Quadruped Robots**. *Sensors*, 2023. [PDF](https://www.mdpi.com/1424-8220/23/3/1234) [Video](https://www.youtube.com/watch?v=Zad20mtFJm0) <button type="button" class="bib-btn" data-bib="roscia23sensors">BibTeX</button>
+- **Optimization-Based Reference Generator for Nonlinear Model Predictive Control of Legged Robots**. *Robotics*, 2023. [PDF](https://www.mdpi.com/2218-6581/12/1/6) <button type="button" class="bib-btn" data-bib="bratta23mdpi">BibTeX</button>
 
 ### 2021
-- **Model Predictive Control with Environment Adaptation for Legged Locomotion**. *IEEE Access*, 2021. [PDF](https://doi.org/10.1109/ACCESS.2021.3137685)
+- **Model Predictive Control with Environment Adaptation for Legged Locomotion**. *IEEE Access*, 2021. [PDF](https://doi.org/10.1109/ACCESS.2021.3137685) [Video](https://www.youtube.com/watch?v=r0-KIiw0eWM) <button type="button" class="bib-btn" data-bib="rathod21access">BibTeX</button>
 
 ### 2020
-- **A simple yet effective whole-body locomotion framework for quadruped robots**. *Frontiers in Robotics and AI*, 2020. [PDF](https://hal.science/hal-03005133v2/file/Frontiers20_QuadrupedalWalking.pdf)
-- **Feasible Region: an Actuation-Aware Extension of the Support Region**. *IEEE Transactions on Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/orsolino20tro.pdf)
-- **STANCE: Locomotion Adaptation over Soft Terrain**. *IEEE Transactions on Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/fahmi19tro.pdf)
-- **Heuristic Planning for Rough Terrain Locomotion in Presence of External Disturbances and Variable Perception Quality**. *Springer Tracts in Advanced Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/focchi19star.pdf)
-- **Motion Planning for Quadrupedal Locomotion: Coupled Planning, Terrain Mapping and Whole-Body Control**. *IEEE Transactions on Robotics*, 2020. [PDF](https://cmastalli.github.io/publications/locomotion20tro.pdf)
-- **Editorial: Bridging the Gap Between the Lab and the Real World: Future Perspectives for Legged Robots**. *Frontiers in Robotics and AI*, 2020. [PDF](https://www.frontiersin.org/articles/10.3389/frobt.2020.629002/full)
+- **A simple yet effective whole-body locomotion framework for quadruped robots**. *Frontiers in Robotics and AI*, 2020. [PDF](https://hal.science/hal-03005133v2/file/Frontiers20_QuadrupedalWalking.pdf) [Video](https://www.youtube.com/watch?v=O6TSUHiwSlU) <button type="button" class="bib-btn" data-bib="raiola20frontiers">BibTeX</button>
+- **Feasible Region: an Actuation-Aware Extension of the Support Region**. *IEEE Transactions on Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/orsolino20tro.pdf) [Video](https://www.youtube.com/watch?v=9pvWO2Qmo9k) <button type="button" class="bib-btn" data-bib="orsolino20tro">BibTeX</button>
+- **STANCE: Locomotion Adaptation over Soft Terrain**. *IEEE Transactions on Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/fahmi19tro.pdf) [Video](https://www.youtube.com/watch?v=0BI4581DFjY) <button type="button" class="bib-btn" data-bib="fahmi20tro">BibTeX</button>
+- **Heuristic Planning for Rough Terrain Locomotion in Presence of External Disturbances and Variable Perception Quality**. *Springer Tracts in Advanced Robotics*, 2020. [PDF](https://iit-dlslab.github.io/papers/focchi19star.pdf) [Video](https://www.youtube.com/watch?v=_7ud4zIt-Gw) [Video 2](https://www.youtube.com/watch?v=MWTmqse0ntg) <button type="button" class="bib-btn" data-bib="focchi2020star">BibTeX</button>
+- **Motion Planning for Quadrupedal Locomotion: Coupled Planning, Terrain Mapping and Whole-Body Control**. *IEEE Transactions on Robotics*, 2020. [PDF](https://cmastalli.github.io/publications/locomotion20tro.pdf) <button type="button" class="bib-btn" data-bib="mastalli20tro">BibTeX</button>
+- **Editorial: Bridging the Gap Between the Lab and the Real World: Future Perspectives for Legged Robots**. *Frontiers in Robotics and AI*, 2020. [PDF](https://www.frontiersin.org/articles/10.3389/frobt.2020.629002/full) <button type="button" class="bib-btn" data-bib="focchi20frontiers">BibTeX</button>
 
 ### 2019
-- **Fast and Continuous Foothold Adaptation for Dynamic Locomotion through CNNs**. *IEEE Robotics and Automation Letters*, 2019. [PDF](https://iit-dlslab.github.io/papers/villarreal19ral.pdf)
-- **Passive Whole-Body Control for Quadruped Robots: Experimental Validation over Challenging Terrain**. *IEEE Robotics and Automation Letters*, 2019. [PDF](https://iit-dlslab.github.io/papers/fahmi19ral.pdf)
+- **Fast and Continuous Foothold Adaptation for Dynamic Locomotion through CNNs**. *IEEE Robotics and Automation Letters*, 2019. [PDF](https://iit-dlslab.github.io/papers/villarreal19ral.pdf) [Video](https://www.youtube.com/watch?v=rxn79dPnaCI) <button type="button" class="bib-btn" data-bib="villarreal19ral">BibTeX</button>
+- **Passive Whole-Body Control for Quadruped Robots: Experimental Validation over Challenging Terrain**. *IEEE Robotics and Automation Letters*, 2019. [PDF](https://iit-dlslab.github.io/papers/fahmi19ral.pdf) [Video](https://www.youtube.com/watch?v=Lg3V_juoE1w) <button type="button" class="bib-btn" data-bib="fahmi2019ral">BibTeX</button>
 
 ### 2018
-- **Simultaneous Contact, Gait, and Motion Planning for Robust Multi-Legged Locomotion via Mixed-Integer Convex Optimization**. *IEEE Robotics and Automation Letters*, 2018. [PDF](https://iit-dlslab.github.io/papers/aceituno_mastalli17ral.pdf)
-- **Application of Wrench-Based Feasibility Analysis to the Online Trajectory Optimization of Legged Robots**. *IEEE Robotics and Automation Letters*, 2018. [PDF](https://iit-dlslab.github.io/papers/orsolino18ral.pdf)
+- **Simultaneous Contact, Gait, and Motion Planning for Robust Multi-Legged Locomotion via Mixed-Integer Convex Optimization**. *IEEE Robotics and Automation Letters*, 2018. [PDF](https://iit-dlslab.github.io/papers/aceituno_mastalli17ral.pdf) [Video](https://www.youtube.com/watch?v=s4PMXpbwUes) [Video 2](https://www.youtube.com/watch?v=RXIAQJx5938) <button type="button" class="bib-btn" data-bib="aceituno_mastalli17ral">BibTeX</button>
+- **Application of Wrench-Based Feasibility Analysis to the Online Trajectory Optimization of Legged Robots**. *IEEE Robotics and Automation Letters*, 2018. [PDF](https://iit-dlslab.github.io/papers/orsolino18ral.pdf) <button type="button" class="bib-btn" data-bib="orsolino18ral">BibTeX</button>
 
 ### 2017
-- **High-slope Terrain Locomotion for Torque-Controlled Quadruped Robots**. *Autonomous Robots*, 2017. [PDF](https://ihavoutis.github.io/publications/2016/auro2016focchi.pdf)  
+- **High-slope Terrain Locomotion for Torque-Controlled Quadruped Robots**. *Autonomous Robots*, 2017. [PDF](https://ihavoutis.github.io/publications/2016/auro2016focchi.pdf) [Video](https://www.youtube.com/watch?v=-qQp2RwQ-PQ) <button type="button" class="bib-btn" data-bib="focchi2016">BibTeX</button>
 
 ### 2016
-- **Robot Impedance Control and Passivity Analysis with Inner Torque and Velocity Feedback Loops**. *Control Theory and Technology*, 2016. [PDF](https://iit-dlslab.github.io/papers/focchi16ctt.pdf)
-- **Design of the Hydraulically-Actuated, Torque-Controlled Quadruped Robot HyQ2Max**. *IEEE/ASME Transactions on Mechatronics*, 2016. [PDF](https://iit-dlslab.github.io/papers/tmech16semini.pdf)
+- **Robot Impedance Control and Passivity Analysis with Inner Torque and Velocity Feedback Loops**. *Control Theory and Technology*, 2016. [PDF](https://iit-dlslab.github.io/papers/focchi16ctt.pdf) <button type="button" class="bib-btn" data-bib="focchi16ctt">BibTeX</button>
+- **Design of the Hydraulically-Actuated, Torque-Controlled Quadruped Robot HyQ2Max**. *IEEE/ASME Transactions on Mechatronics*, 2016. [PDF](https://iit-dlslab.github.io/papers/tmech16semini.pdf) <button type="button" class="bib-btn" data-bib="tmech16semini">BibTeX</button>
 
 ### 2015
-- **Towards Versatile Legged Robots through Active Impedance Control**. *The International Journal of Robotics Research*, 2015. [PDF](https://iit-dlslab.github.io/papers/tmech16semini.pdf)
-- **On the Use of Positive Feedback for Improved Torque Control**. *Control Theory and Technology*, 2015. [PDF](https://iit-dlslab.github.io/papers/dallali15ctt.pdf)
+- **Towards Versatile Legged Robots through Active Impedance Control**. *The International Journal of Robotics Research*, 2015. [PDF](https://iit-dlslab.github.io/papers/semini15ijrr.pdf) [Video](https://www.youtube.com/watch?v=cNZPRsrwumQ) [Video 2](https://www.youtube.com/watch?v=ENHvCGrnr2g) <button type="button" class="bib-btn" data-bib="semini15ijrr">BibTeX</button>
+- **On the Use of Positive Feedback for Improved Torque Control**. *Control Theory and Technology*, 2015. [PDF](https://iit-dlslab.github.io/papers/dallali15ctt.pdf) <button type="button" class="bib-btn" data-bib="dallali15ctt">BibTeX</button>
 
 ### 2014
-- **Quadruped Robot Trotting over Irregular Terrain Assisted by Stereo-Vision**. *Intelligent Service Robotics*, 2014. [PDF](https://iit-dlslab.github.io/papers/bazeille14isr.pdf)
-- **Magnetorheologically Damped Compliant Foot for Legged Robotic Application**. *Journal of Mechanical Design*, 2014. [PDF](https://iit-dlslab.github.io/papers/kostamo14.pdf)
+- **Quadruped Robot Trotting over Irregular Terrain Assisted by Stereo-Vision**. *Intelligent Service Robotics*, 2014. [PDF](https://iit-dlslab.github.io/papers/bazeille14isr.pdf) <button type="button" class="bib-btn" data-bib="bazeille14isr">BibTeX</button>
+- **Magnetorheologically Damped Compliant Foot for Legged Robotic Application**. *Journal of Mechanical Design*, 2014. [PDF](https://iit-dlslab.github.io/papers/kostamo14.pdf) [Video](https://www.youtube.com/watch?v=e5m1SmGV_ao) <button type="button" class="bib-btn" data-bib="kostamo14">BibTeX</button>
 
 ### 2011
-- **Design of HyQ – a Hydraulically and Electrically Actuated Quadruped Robot**. *Journal of Systems and Control Engineering*, 2011. [PDF](https://iit-dlslab.github.io/papers/semini11jsce.pdf)
+- **Design of HyQ – a Hydraulically and Electrically Actuated Quadruped Robot**. *Journal of Systems and Control Engineering*, 2011. [PDF](https://iit-dlslab.github.io/papers/semini11jsce.pdf) <button type="button" class="bib-btn" data-bib="semini11hyqdesignjsce">BibTeX</button>
 
 </div>
 
@@ -171,67 +190,69 @@ You can check more about these in my Youtube Research [playlist](https://youtube
 
 # Publications (Conferences)
 
+<p class="bib-all">All references in one file: <a href="{{ '/assets/data/publications.bib' | relative_url }}" download>publications.bib</a></p>
+
 ### 2026
-- **Cooperative and Optimization-based Framework for Aerial Manipulation**. *17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS)*, 2026. [PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/papers/eccomas26.pdf)
-- **Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. [PDF](https://arxiv.org/abs/2604.26910)
+- **Cooperative and Optimization-based Framework for Aerial Manipulation**. *17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS)*, 2026. [PDF](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/papers/eccomas26.pdf) <button type="button" class="bib-btn" data-bib="focchi26eccomas">BibTeX</button>
+- **Bi-Level Optimization for Contact and Motion Planning in Rope-Assisted Legged Robots**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. [PDF](https://arxiv.org/abs/2604.26910) <button type="button" class="bib-btn" data-bib="malacarne26iros">BibTeX</button>
 
 ### 2024
-- **Distributed Robot Perception for Tracked Vehicles**. *Italian Conference on Robotics and Intelligent Machines (I-RIM)*, 2024. [PDF](https://iit-dlslab.github.io/papers/bussola24irim.pdf)
-- **ContactNet: Online Multi-Contact Planning for Acyclic Legged Robot Locomotion**. *Ubiquitous Robots*, 2024. [PDF](https://iit-dlslab.github.io/papers/bratta24ur.pdf)
+- **Distributed Robot Perception for Tracked Vehicles**. *Italian Conference on Robotics and Intelligent Machines (I-RIM)*, 2024. [PDF](https://iit-dlslab.github.io/papers/bussola24irim.pdf) <button type="button" class="bib-btn" data-bib="bussola24irim">BibTeX</button>
+- **ContactNet: Online Multi-Contact Planning for Acyclic Legged Robot Locomotion**. *Ubiquitous Robots*, 2024. [PDF](https://iit-dlslab.github.io/papers/bratta24ur.pdf) [Video](https://www.youtube.com/watch?v=ta1JpSigRKo) <button type="button" class="bib-btn" data-bib="bratta24ur">BibTeX</button>
 
 ### 2023
-- **Locosim: An Open-Source Cross-Platform Robotics Framework**. *CLAWAR*, 2023. [Publisher](https://iit-dlslab.github.io/papers/focchi23clawar.pdf)
-- **CLIO: a Novel Robotic Solution for Exploration and Rescue Missions in Hostile Mountain Environments**. *ICRA*, 2023. [PDF](https://arxiv.org/abs/2209.09693)
+- **Locosim: An Open-Source Cross-Platform Robotics Framework**. *CLAWAR*, 2023. [Publisher](https://iit-dlslab.github.io/papers/focchi23clawar.pdf) [Video](https://www.youtube.com/watch?v=ZwV1LEqK-LU) [Video 2](https://www.youtube.com/watch?v=tW5CuDmQTII) <button type="button" class="bib-btn" data-bib="focchi23clawar">BibTeX</button>
+- **CLIO: a Novel Robotic Solution for Exploration and Rescue Missions in Hostile Mountain Environments**. *ICRA*, 2023. [PDF](https://arxiv.org/abs/2209.09693) <button type="button" class="bib-btn" data-bib="focchi23icra">BibTeX</button>
 
 ### 2022
-- **Towards a Generic Navigation and Locomotion Control System for Legged Space Exploration**. *ASTRA*, 2022. [PDF](https://iit-dlslab.github.io/papers/sanchez-delgado2025astra.pdf)
-- **Foothold Evaluation Criterion for Dynamic Transition Feasibility for Quadruped Robots**. *ICRA*, 2022. [PDF](https://iit-dlslab.github.io/papers/clemente22icra.pdf)
+- **Towards a Generic Navigation and Locomotion Control System for Legged Space Exploration**. *ASTRA*, 2022. [PDF](https://iit-dlslab.github.io/papers/dettmann22astra.pdf) <button type="button" class="bib-btn" data-bib="dettmann22astra">BibTeX</button>
+- **Foothold Evaluation Criterion for Dynamic Transition Feasibility for Quadruped Robots**. *ICRA*, 2022. [PDF](https://iit-dlslab.github.io/papers/clemente22icra.pdf) [Video](https://www.youtube.com/watch?v=2rBopUquyrc) <button type="button" class="bib-btn" data-bib="clemente22icra">BibTeX</button>
 
 ### 2020
-- **On the Hardware Feasibility of Nonlinear Trajectory Optimization for Legged Locomotion based on a Simplified Dynamics**. *ICRA*, 2020. [PDF](https://iit-dlslab.github.io/papers/bratta20icra.pdf)
+- **On the Hardware Feasibility of Nonlinear Trajectory Optimization for Legged Locomotion based on a Simplified Dynamics**. *ICRA*, 2020. [PDF](https://iit-dlslab.github.io/papers/bratta20icra.pdf) [Video](https://www.youtube.com/watch?v=bpjlRvtVwe8) <button type="button" class="bib-btn" data-bib="bratta20icra">BibTeX</button>
 
 ### 2019
-- **Brief Introduction to the Quadruped Robot HyQReal**. *I-RIM*, 2019. [PDF](https://iit-dlslab.github.io/papers/bratta20icra.pdf)
-- **On the Detection and Localization of Shin Collisions and Reactive Actions in Quadruped Robots**. *CLAWAR*, 2019. [PDF](https://iit-dlslab.github.io/papers/barasuol19clawar.pdf)
+- **Brief Introduction to the Quadruped Robot HyQReal**. *I-RIM*, 2019. [PDF](https://iit-dlslab.github.io/papers/semini19irim.pdf) [Video](https://www.youtube.com/watch?v=pLsNs1ZS_TI) <button type="button" class="bib-btn" data-bib="Semini2019">BibTeX</button>
+- **On the Detection and Localization of Shin Collisions and Reactive Actions in Quadruped Robots**. *CLAWAR*, 2019. [PDF](https://iit-dlslab.github.io/papers/barasuol19clawar.pdf) [Video](https://www.youtube.com/watch?v=vHc5ZpkCy8Y) <button type="button" class="bib-btn" data-bib="barasuol19clawar">BibTeX</button>
 
 ### 2017
-- **Online Payload Identification for Quadruped Robots**. *IROS*, 2017. [PDF](https://iit-dlslab.github.io/papers/tournois17iros.pdf)
-- **A Combined Limit Cycle-Zero Moment Point Based Approach for Omni-Directional Quadrupedal Bounding**. *CLAWAR*, 2017. [PDF](https://iit-dlslab.github.io/papers/orsolino17clawar.pdf)
-- **Validation of Computer Simulations of the HyQ Robot**. *CLAWAR*, 2017. [PDF](https://iit-dlslab.github.io/papers/frigerio17clawar.pdf)
-- **Heterogeneous Sensor Fusion for Accurate State Estimation of Dynamic Legged Robots**. *Robotics: Science and Systems (RSS)*, 2017. [PDF](https://iit-dlslab.github.io/papers/nobili_camurri2017rss.pdf)
-- **Viscosity-based Height Reflex for Workspace Augmentation for Quadrupedal Locomotion on Rough Terrain**. *IROS*, 2017. [PDF](https://iit-dlslab.github.io/papers/focchi17iros.pdf)
-- **Trajectory and Foothold Optimization using Low-Dimensional Models for Rough Terrain Locomotion**. *ICRA*, 2017. [PDF](https://iit-dlslab.github.io/papers/mastalli17icra.pdf)
+- **Online Payload Identification for Quadruped Robots**. *IROS*, 2017. [PDF](https://iit-dlslab.github.io/papers/tournois17iros.pdf) [Video](https://www.youtube.com/watch?v=EDsBPYudHik) [Video 2](https://www.youtube.com/watch?v=2Pnj5hJVeJM) [Video 3](https://www.youtube.com/watch?v=3zZE9YTGRjw) <button type="button" class="bib-btn" data-bib="tournois17iros">BibTeX</button>
+- **A Combined Limit Cycle-Zero Moment Point Based Approach for Omni-Directional Quadrupedal Bounding**. *CLAWAR*, 2017. [PDF](https://iit-dlslab.github.io/papers/orsolino17clawar.pdf) [Video](https://www.youtube.com/watch?v=005BMWixqsQ) <button type="button" class="bib-btn" data-bib="orsolino17clawar">BibTeX</button>
+- **Validation of Computer Simulations of the HyQ Robot**. *CLAWAR*, 2017. [PDF](https://iit-dlslab.github.io/papers/frigerio17clawar.pdf) <button type="button" class="bib-btn" data-bib="frigerio17clawar">BibTeX</button>
+- **Heterogeneous Sensor Fusion for Accurate State Estimation of Dynamic Legged Robots**. *Robotics: Science and Systems (RSS)*, 2017. [PDF](https://iit-dlslab.github.io/papers/nobili_camurri2017rss.pdf) <button type="button" class="bib-btn" data-bib="nobili_camurri2017rss">BibTeX</button>
+- **Viscosity-based Height Reflex for Workspace Augmentation for Quadrupedal Locomotion on Rough Terrain**. *IROS*, 2017. [PDF](https://iit-dlslab.github.io/papers/focchi17iros.pdf) [Video](https://www.youtube.com/watch?v=FPkvu29WLUc) [Video 2](https://www.youtube.com/watch?v=pQPO5exJQd0) [Video 3](https://www.youtube.com/watch?v=vD5PTUf6rLQ) <button type="button" class="bib-btn" data-bib="focchi17iros">BibTeX</button>
+- **Trajectory and Foothold Optimization using Low-Dimensional Models for Rough Terrain Locomotion**. *ICRA*, 2017. [PDF](https://iit-dlslab.github.io/papers/mastalli17icra.pdf) [Video](https://www.youtube.com/watch?v=79bb2KTULrw) <button type="button" class="bib-btn" data-bib="mastalli17icra">BibTeX</button>
 
 ### 2016
-- **Towards a Multi-Legged Mobile Manipulator**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16brehman.pdf)
-- **A Design Method of a Robust Controller for Hydraulic Actuation with Disturbance Observers**. *AMC*, 2016. [PDF](https://iit-dlslab.github.io/papers/kuwahara16acm.pdf)
-- **Hierarchical Planning of Dynamic Movements without Scheduled Contact Sequences**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16mastalli.pdf)
+- **Towards a Multi-Legged Mobile Manipulator**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16brehman.pdf) [Video](https://www.youtube.com/watch?v=RKwWxEc-ric) <button type="button" class="bib-btn" data-bib="icra16brehman">BibTeX</button>
+- **A Design Method of a Robust Controller for Hydraulic Actuation with Disturbance Observers**. *AMC*, 2016. [PDF](https://iit-dlslab.github.io/papers/kuwahara16acm.pdf) <button type="button" class="bib-btn" data-bib="kuwahara16acm">BibTeX</button>
+- **Hierarchical Planning of Dynamic Movements without Scheduled Contact Sequences**. *ICRA*, 2016. [PDF](https://iit-dlslab.github.io/papers/icra16mastalli.pdf) <button type="button" class="bib-btn" data-bib="icra16mastalli">BibTeX</button>
 
 ### 2015
-- **Slip Detection and Recovery for Quadruped Robots**. *ISRR*, 2015. [PDF](https://iit-dlslab.github.io/papers/focchi15isrr.pdf)
-- **Design of a Hydraulically Actuated Arm for a Quadruped Robot**. *CLAWAR*, 2015. [PDF](https://iit-dlslab.github.io/papers/rehman15clawar.pdf)
-- **Planning and Execution of Dynamic Whole-Body Locomotion for a Hydraulic Quadruped on Challenging Terrain**. *ICRA*, 2015. [PDF](https://iit-dlslab.github.io/papers/winkler15icra.pdf)
-- **Design Overview of the Hydraulic Quadruped Robots HyQ2Max and HyQ2Centaur**. *14th Scandinavian International Conference on Fluid Power (SICFP)*, 2015.  [PDF](https://iit-dlslab.github.io/papers/semini15sicfp.pdf)
+- **Slip Detection and Recovery for Quadruped Robots**. *ISRR*, 2015. [PDF](https://iit-dlslab.github.io/papers/focchi15isrr.pdf) [Video](https://www.youtube.com/watch?v=cNZPRsrwumQ) [Video 2](https://www.youtube.com/watch?v=Hrwi9-411AM) <button type="button" class="bib-btn" data-bib="focchi15isrr">BibTeX</button>
+- **Design of a Hydraulically Actuated Arm for a Quadruped Robot**. *CLAWAR*, 2015. [PDF](https://iit-dlslab.github.io/papers/rehman15clawar.pdf) [Video](https://www.youtube.com/watch?v=JhbHPZc-NGU) <button type="button" class="bib-btn" data-bib="rehman15clawar">BibTeX</button>
+- **Planning and Execution of Dynamic Whole-Body Locomotion for a Hydraulic Quadruped on Challenging Terrain**. *ICRA*, 2015. [PDF](https://iit-dlslab.github.io/papers/winkler15icra.pdf) [Video](https://www.youtube.com/watch?v=MF-qxA_syZg) <button type="button" class="bib-btn" data-bib="winkler15icra">BibTeX</button>
+- **Design Overview of the Hydraulic Quadruped Robots HyQ2Max and HyQ2Centaur**. *14th Scandinavian International Conference on Fluid Power (SICFP)*, 2015. [PDF](https://iit-dlslab.github.io/papers/semini15sicfp.pdf) [Video](https://www.youtube.com/watch?v=ENHvCGrnr2g) [Video 2](https://www.youtube.com/watch?v=2jvLalY6ubc) <button type="button" class="bib-btn" data-bib="semini15sicfp">BibTeX</button>
 
 ### 2014
-- **Path Planning with Force-Based Foothold Adaptation and Virtual Model Control for Torque Controlled Quadruped Robots**. *ICRA*, 2014. [PDF](https://iit-dlslab.github.io/papers/winkler14icra.pdf)
+- **Path Planning with Force-Based Foothold Adaptation and Virtual Model Control for Torque Controlled Quadruped Robots**. *ICRA*, 2014. [PDF](https://iit-dlslab.github.io/papers/winkler14icra.pdf) <button type="button" class="bib-btn" data-bib="winkler14icra">BibTeX</button>
 
 ### 2013
-- **Local Reflex Generation for Obstacle Negotiation in Quadrupedal Locomotion**. *CLAWAR*, 2013. [PDF](https://iit-dlslab.github.io/papers/focchi13clawar.pdf)
-- **Vision Enhanced Reactive Locomotion Control for Trotting on Rough Terrain**. *TePRA*, 2013. [PDF](https://iit-dlslab.github.io/papers/bazeille13tepra.pdf)
+- **Local Reflex Generation for Obstacle Negotiation in Quadrupedal Locomotion**. *CLAWAR*, 2013. [PDF](https://iit-dlslab.github.io/papers/focchi13clawar.pdf) [Video](https://www.youtube.com/watch?v=_9H8EIs-hMc) <button type="button" class="bib-btn" data-bib="focchi2013a">BibTeX</button>
+- **Vision Enhanced Reactive Locomotion Control for Trotting on Rough Terrain**. *TePRA*, 2013. [PDF](https://iit-dlslab.github.io/papers/bazeille13tepra.pdf) <button type="button" class="bib-btn" data-bib="bazeille13tepra">BibTeX</button>
 
 ### 2012
-- **On the Role of Load Motion Compensation in High-Performance Force Control**. *IROS*, 2012. [PDF](https://iit-dlslab.github.io/papers/boaventura12iros.pdf)
-- **Design and Scaling of Versatile Quadruped Robots**. *CLAWAR*, 2012. [PDF](https://iit-dlslab.github.io/papers/semini12clawar.pdf)
-- **Dynamic Torque Control of a Hydraulic Quadruped Robot**. *ICRA*, 2012. [PDF](https://iit-dlslab.github.io/papers/boaventura12icra.pdf)
-- **Torque-Control Based Compliant Actuation of a Quadruped Robot**. *AMC*, 2012. [PDF](https://iit-dlslab.github.io/papers/focchi12acm.pdf)
+- **On the Role of Load Motion Compensation in High-Performance Force Control**. *IROS*, 2012. [PDF](https://iit-dlslab.github.io/papers/boaventura12iros.pdf) <button type="button" class="bib-btn" data-bib="boaventura12iros">BibTeX</button>
+- **Design and Scaling of Versatile Quadruped Robots**. *CLAWAR*, 2012. [PDF](https://iit-dlslab.github.io/papers/semini12clawar.pdf) [Video](https://www.youtube.com/watch?v=wPxXwYGZmd8) <button type="button" class="bib-btn" data-bib="semini12clawar">BibTeX</button>
+- **Dynamic Torque Control of a Hydraulic Quadruped Robot**. *ICRA*, 2012. [PDF](https://iit-dlslab.github.io/papers/boaventura12icra.pdf) <button type="button" class="bib-btn" data-bib="boaventura12icra">BibTeX</button>
+- **Torque-Control Based Compliant Actuation of a Quadruped Robot**. *AMC*, 2012. [PDF](https://iit-dlslab.github.io/papers/focchi12acm.pdf) <button type="button" class="bib-btn" data-bib="focchi12acm">BibTeX</button>
 
 ### 2011
-- **Novel Concept for an Air-Pressure Driven Micro-Turbine for Power Generation**. *ASME Turbo Expo*, 2011. [PDF](https://www.researchgate.net/publication/261360745_Novel_Concept_for_an_Air-Pressure_Driven_Micro-Turbine_for_Power_Generation)
+- **Novel Concept for an Air-Pressure Driven Micro-Turbine for Power Generation**. *ASME Turbo Expo*, 2011. [PDF](https://www.researchgate.net/publication/261360745_Novel_Concept_for_an_Air-Pressure_Driven_Micro-Turbine_for_Power_Generation) [Video](https://www.youtube.com/watch?v=q9NsmhQHHFE) <button type="button" class="bib-btn" data-bib="focchi11turboexpo">BibTeX</button>
 
 ### 2010
-- **Control of a Hydraulically-Actuated Quadruped Robot Leg**. *ICRA*, 2010. [PDF](https://iit-dlslab.github.io/papers/icra10focchi.pdf)
-- **Water/Air Performance Analysis of a Fluidic Muscle**. *IROS*, 2010. [PDF](https://ieeexplore.ieee.org/document/5650432)
+- **Control of a Hydraulically-Actuated Quadruped Robot Leg**. *ICRA*, 2010. [PDF](https://iit-dlslab.github.io/papers/icra10focchi.pdf) <button type="button" class="bib-btn" data-bib="focchi10icra">BibTeX</button>
+- **Water/Air Performance Analysis of a Fluidic Muscle**. *IROS*, 2010. [PDF](https://ieeexplore.ieee.org/document/5650432) <button type="button" class="bib-btn" data-bib="focchi10iros">BibTeX</button>
 
 </div>
 
@@ -271,5 +292,57 @@ You can check more about these in my Youtube Research [playlist](https://youtube
     if (b) { show(b.getAttribute('data-tab'), true); }
   });
   show(location.hash.replace('#', '') || panels[0].id.replace('research-', ''), false);
+})();
+</script>
+
+<dialog id="bib-dialog" aria-labelledby="bib-dialog-title">
+  <header><strong id="bib-dialog-title">BibTeX</strong><button type="button" id="bib-copy">Copy</button><button type="button" id="bib-close">Close</button></header>
+  <pre><code id="bib-code"></code></pre>
+</dialog>
+
+<script>
+(function () {
+  var dlg = document.getElementById('bib-dialog');
+  var code = document.getElementById('bib-code');
+  var copyBtn = document.getElementById('bib-copy');
+  var url = "{{ '/assets/data/publications.bib' | relative_url }}";
+  var entries = null;
+  function load() {
+    if (entries) { return Promise.resolve(entries); }
+    return fetch(url).then(function (r) { return r.text(); }).then(function (txt) {
+      entries = {};
+      txt.split(/\n(?=@)/).forEach(function (chunk) {
+        var m = chunk.match(/^@\w+\{([^,\s]+),/);
+        if (m) { entries[m[1]] = chunk.trim(); }
+      });
+      return entries;
+    });
+  }
+  function open(key, title) {
+    document.getElementById('bib-dialog-title').textContent = title || key;
+    code.textContent = 'Loading…';
+    copyBtn.textContent = 'Copy';
+    if (dlg.showModal) { dlg.showModal(); } else { dlg.setAttribute('open', ''); }
+    load().then(function (e) {
+      code.textContent = e[key] || 'No BibTeX entry found for ' + key + '.';
+    }).catch(function () {
+      code.textContent = 'Could not load the BibTeX file. Download it from ' + url;
+    });
+  }
+  document.addEventListener('click', function (ev) {
+    var b = ev.target.closest('.bib-btn');
+    if (!b) { return; }
+    var li = b.closest('li'); var strong = li && li.querySelector('strong');
+    open(b.getAttribute('data-bib'), strong ? strong.textContent : '');
+  });
+  document.getElementById('bib-close').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (ev) { if (ev.target === dlg) { dlg.close(); } });
+  copyBtn.addEventListener('click', function () {
+    var t = code.textContent;
+    var done = function () { copyBtn.textContent = 'Copied'; };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done); }
+    else { var r = document.createRange(); r.selectNodeContents(code); var sel = getSelection();
+      sel.removeAllRanges(); sel.addRange(r); document.execCommand('copy'); done(); }
+  });
 })();
 </script>

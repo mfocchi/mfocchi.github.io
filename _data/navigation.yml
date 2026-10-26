@@ -4,6 +4,8 @@ main:
      url: /about/
    - title: "Research"
      url: /Research/
+   - title: "Achievements"
+     url: /Achievements/
    - title: "Teaching"
      url: /Teaching/
    - title: "Students"
@@ -12,6 +14,8 @@ main:
      url: /CV/
    - title: "Climbing"
      url: /Climbing/
+   - title: "YouTube"
+     url: /YouTube/
    - title: "Contact"
      url: /Contact/
 
