@@ -37,10 +37,10 @@ Below is my climbing record, grouped by discipline.
 
 | Date | Area | Peak | Route | Length | Grade | Partners |
 |---|---|---|---|---|---|---|
-| Aug 2026 | Catinaccio | Torre Stabeler (2805 m) | Fehrmann | 150 m | TD- · V | Sorci |
-| Aug 2026 | Catinaccio | Torre De lago (2790 m) | Spigolo Piaz | 130 m | TD- · IV+ | Sorci |
 | Aug 2026 | Gruppo del Sella | Piz Ciavazes (2828 m) | Diedro Zeni + variante grill | 300 m | TD+ · VII | Sanguineti, Pedrini |
 | Aug 2026 | Dolomiti Ampezzane | Tofana di Rozes (3200 m) | Gilles Villeneuve | 270 m | ED- · VII- | Sanguineti, Pedrini |
+| Aug 2026 | Catinaccio | Torre Stabeler (2805 m) | Fehrmann | 150 m | TD- · V | Sorci |
+| Aug 2026 | Catinaccio | Torre De lago (2790 m) | Spigolo Piaz | 130 m | TD- · IV+ | Sorci |
 | Jul 2026 | Norvegia-Haegenfjell | Sternschnuppe (1021 m) | Gone with the weed | 380 m | 6- (NOR) | Fieschi |
 | Jul 2026 | Norvegia-Haegenfjell | Sternschnuppe (1021 m) | Reven | 380 m | 6- (NOR) | Fieschi |
 | Jul 2026 | Norvegia-Haegenfjell | Sternschnuppe (1021 m) | Linker Einstieg Sternschnuppe | 600 m | 5+ (NOR) | Fieschi |

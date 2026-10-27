@@ -1,6 +1,9 @@
 import sys, re, openpyxl
 
-XLSX, OUT = sys.argv[1], sys.argv[2]
+if len(sys.argv) < 2:
+    sys.exit("usage: python3 climbing_from_cv.py <cv.xlsx> [output.md]  (default output: _pages/Climbing.md)")
+XLSX = sys.argv[1]
+OUT = sys.argv[2] if len(sys.argv) > 2 else "_pages/Climbing.md"
 wb = openpyxl.load_workbook(XLSX, data_only=True)
 
 MONTHS = {"gen": "Jan", "feb": "Feb", "mar": "Mar", "apr": "Apr", "mag": "May", "giu": "Jun",
@@ -57,7 +60,19 @@ def rows(sheet, start=3):
             yield r
 
 
+MONTH_IDX = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                                          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+
+
+def datekey(d):
+    parts = d.split()
+    y = int(parts[-1]) if parts and parts[-1].isdigit() else 0
+    m = MONTH_IDX.get(parts[0], 0) if len(parts) > 1 else 0
+    return (y, m)
+
+
 def table(header, data):
+    data = sorted(data, key=lambda row: datekey(row[0]), reverse=True)  # newest first, whatever the xlsx order
     lines = ["| " + " | ".join(header) + " |", "|" + "|".join(["---"] * len(header)) + "|"]
     lines += ["| " + " | ".join(row) + " |" for row in data]
     return "\n".join(lines)

@@ -1,0 +1,1 @@
+python3 climbing_from_cv.py cv_alpinistico_Michele_Focchi_ordered.xlsx _pages/Climbing.md
