@@ -7,6 +7,11 @@ classes: wide
 mathjax: "true"
 ---
 
+# Openings for Students
+
+There are no openings at the moment
+
+
 
 # Students Supervision
 
