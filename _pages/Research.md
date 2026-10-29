@@ -66,6 +66,8 @@ mathjax: "true"
 
 <div class="topic-tabbar" id="topic-tabbar" role="group" aria-label="Filter research topics" hidden><button type="button" data-topic="all" aria-pressed="true">All topics</button><button type="button" data-topic="rl" aria-pressed="false">Reinforcement learning</button><button type="button" data-topic="locomanipulation" aria-pressed="false">Loco-manipulation</button><button type="button" data-topic="agrifood" aria-pressed="false">Agrifood</button><button type="button" data-topic="optimization" aria-pressed="false">Numerical optimization</button><button type="button" data-topic="construction" aria-pressed="false">Construction</button><button type="button" data-topic="platforms" aria-pressed="false">Novel platforms</button></div>
 
+<p class="topic-links"><a class="topic-link" href="https://www.youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#f00" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.6 15.6 15.8 12 9.6 8.4z"/></svg>Research videos on YouTube</a></p>
+
 <div class="topic-intro" markdown="1">
 
 My research lies at the intersection of **control**, **optimization**, and **machine learning**, highlighting a strong degree of **multidisciplinarity**. My work has evolved from low-level controllers to whole-body control, model identification, and uncertainty-aware motion planning based on optimization techniques for real-world applications. I am particularly known for my pioneering contributions to heuristic locomotion strategies for quadruped robots operating in rough terrain.
@@ -175,8 +177,6 @@ The ability to adjust cable lengths introduces additional degrees of freedom, al
 This feature provides unprecedented positioning accuracy when required while also enabling acceleration and deceleration of the load without inducing unwanted oscillations. CO-FAST enables innovative wildfire suppression strategies and has applications in transportation, handling, and automated assembly of loads in construction sites and remote areas.
 
 </section>
-
-You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
 
 </div>
 
