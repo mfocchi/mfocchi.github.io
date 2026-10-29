@@ -33,6 +33,12 @@ mathjax: "true"
 .topic-filtered .topic { display: none; border-top: 0; margin-top: 0; }
 .topic-filtered .topic.on { display: block; }
 .topic-filtered .topic.on > h2 { margin-top: 0; }
+.topic-links { display: flex; flex-wrap: wrap; gap: .5em; margin: .3em 0 1.1em; }
+.topic-link { display: inline-flex; align-items: center; gap: .45em; font-size: .8em; color: inherit !important;
+  text-decoration: none !important; padding: .4em .95em; border: 1px solid rgba(128,128,128,.5); border-radius: 999px; }
+.topic-link:hover { border-color: currentColor; background: rgba(128,128,128,.15); }
+.topic-link:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.topic-link svg { width: 1.25em; height: 1.25em; flex: none; }
 /* paper links: PDF / Video / BibTeX */
 .research-panel li > a, .bib-btn { display: inline-block; font: inherit; font-size: .72em; line-height: 1.4; color: inherit;
   background: transparent; text-decoration: none; cursor: pointer; padding: .1em .65em; margin: .15em .1em 0 0;
@@ -141,6 +147,11 @@ In addition to theoretical research, I am actively involved in the prototyping a
 
 ### ALPINE Rappelling Robot  
 *(Theses: [Hardonk](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/Luca_Hardonk_thesis.pdf), [Malacarne](https://github.com/mfocchi/mfocchi.github.io/blob/master/_data/thesis/thesisMalacarne26.pdf))*
+
+<p class="topic-links">
+<a class="topic-link" href="https://www.youtube.com/watch?v=ANr4rr6-7jc"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#f00" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.6 15.6 15.8 12 9.6 8.4z"/></svg>Watch the video</a>
+<a class="topic-link" href="https://github.com/alpine-robot"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg>Project page</a>
+</p>
 
 This research involves the development of robotic platforms combining rope-based locomotion and legged systems to address maintenance and inspection challenges in steep, remote, and hazardous environments.
 
