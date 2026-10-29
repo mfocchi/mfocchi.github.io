@@ -19,6 +19,20 @@ mathjax: "true"
 .research-js .research-panel { display: none; }
 .research-js .research-panel.active { display: block; }
 .research-js .research-panel > h1:first-child { display: none; }
+/* research topics: sub-tabs and separation */
+.topic-tabbar { display: flex; flex-wrap: wrap; gap: .35em; margin: .2em 0 1.4em; }
+.topic-tabbar button { font: inherit; font-size: .72em; color: inherit; background: transparent; cursor: pointer;
+  padding: .3em .8em; border: 1px dashed rgba(128,128,128,.5); border-radius: 999px; opacity: .8; }
+.topic-tabbar button:hover { opacity: 1; }
+.topic-tabbar button[aria-pressed="true"] { opacity: 1; font-weight: bold; border-style: solid; border-color: currentColor; }
+.topic-tabbar button:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.topic { border-top: 1px solid rgba(128,128,128,.35); margin-top: 2.4em; padding-top: .2em; }
+.topic > h2 { margin-top: .9em; padding-left: .55em; border-left: 4px solid currentColor; border-bottom: 0; }
+.topic h3 { font-size: 1em; margin: 1.4em 0 .4em; padding-bottom: .2em; border-bottom: 1px dotted rgba(128,128,128,.45); }
+.topic-filtered .topic-intro { display: none; }
+.topic-filtered .topic { display: none; border-top: 0; margin-top: 0; }
+.topic-filtered .topic.on { display: block; }
+.topic-filtered .topic.on > h2 { margin-top: 0; }
 /* paper links: PDF / Video / BibTeX */
 .research-panel li > a, .bib-btn { display: inline-block; font: inherit; font-size: .72em; line-height: 1.4; color: inherit;
   background: transparent; text-decoration: none; cursor: pointer; padding: .1em .65em; margin: .15em .1em 0 0;
@@ -44,11 +58,19 @@ mathjax: "true"
 
 # Research topics
 
+<div class="topic-tabbar" id="topic-tabbar" role="group" aria-label="Filter research topics" hidden><button type="button" data-topic="all" aria-pressed="true">All topics</button><button type="button" data-topic="rl" aria-pressed="false">Reinforcement learning</button><button type="button" data-topic="locomanipulation" aria-pressed="false">Loco-manipulation</button><button type="button" data-topic="agrifood" aria-pressed="false">Agrifood</button><button type="button" data-topic="optimization" aria-pressed="false">Numerical optimization</button><button type="button" data-topic="construction" aria-pressed="false">Construction</button><button type="button" data-topic="platforms" aria-pressed="false">Novel platforms</button></div>
+
+<div class="topic-intro" markdown="1">
+
 My research lies at the intersection of **control**, **optimization**, and **machine learning**, highlighting a strong degree of **multidisciplinarity**. My work has evolved from low-level controllers to whole-body control, model identification, and uncertainty-aware motion planning based on optimization techniques for real-world applications. I am particularly known for my pioneering contributions to heuristic locomotion strategies for quadruped robots operating in rough terrain.
 
 More recently, I have steered my research toward hybrid approaches combining AI and model-based techniques for motion planning, while also exploring innovative robotic platforms such as a rappelling robot for hydro-geological risk mitigation and systems for cooperative aerial transportation and manipulation. Driven by the department’s research interests, I have also begun investigating planning and control strategies for tracked robots in agricultural applications.
 
 Below, I summarize in greater detail the research topics I have been involved in during the 2022–2026 period. Wherever applicable, hyperlinks to supervised student theses are provided next to each topic title.
+
+</div>
+
+<section class="topic" id="topic-rl" markdown="1">
 
 ## Reinforcement Learning for Legged Robots
 
@@ -67,21 +89,37 @@ Research on Guided Reinforcement Learning approaches for generating optimal jump
 
 Compared to standard end-to-end approaches, the method reduces the search space, improves sample efficiency, and requires significantly less reward engineering. Landing is achieved using a model-based reactive planner, which continuously recalculates foothold locations to bring the robot to a stop without rebounding.
 
+</section>
+
+<section class="topic" id="topic-locomanipulation" markdown="1">
+
 ## Loco-manipulation  
 Research on loco-manipulation with centaur robots in contact-rich environments, with particular focus on non-prehensile interaction tasks involving pushing and physical assistance (e.g., wheelchairs). This research investigates hybrid control architectures combining sampling-based Model Predictive Control (MPPI) and online parameter estimation for *simultaneous* motion control and inference of object properties such as mass, inertia, and friction.
 
 Proposed a unified rollout-based framework capable of adapting robot behavior online without predefined contact schedules or force sensing. The work addresses key challenges in contact-rich robotics, including intermittent contacts, hybrid dynamics, and online adaptation to unknown payloads and interaction conditions. Particular emphasis is placed on GPU-accelerated simulation and massively parallel rollout evaluation for real-time onboard deployment.
+
+</section>
+
+<section class="topic" id="topic-agrifood" markdown="1">
 
 ## Agrifood  
 Motivated by the challenges posed by an aging population and the urgent need for pesticide reduction, this research studies tracked vehicles for precision agricultural robotics applications. Tracked robots perform better on rough terrain due to the large contact area between the tracks and the ground, but they rely on skid steering for turning.
 
 The complexity of modeling the system, particularly the intricate terramechanics dynamics arising from soil–track interactions, makes the design of theoretically grounded navigation solutions especially challenging. This research investigates slippage-aware planning and control strategies while also enabling smooth transitions between human operator inputs and autonomous control.
 
+</section>
+
+<section class="topic" id="topic-optimization" markdown="1">
+
 ## Numerical Optimization
 
 In the field of legged robotics, I aim to address a key research challenge in the use of numerical optimization for trajectory planning. This research investigates methods to concurrently optimize both the sequence of contacts and their duration within a Model Predictive Control (MPC) framework.
 
 Legged robots exhibit hybrid dynamics, and optimization of contact sequences is typically handled using Mixed-Integer approaches, which often suffer from high computational demands. My goal is to investigate parallel optimization techniques to enable real-time computation and deployment on physical robotic platforms.
+
+</section>
+
+<section class="topic" id="topic-construction" markdown="1">
 
 ## Robotics Applied to Construction
 
@@ -91,7 +129,11 @@ This research proposes a framework to automate a large number of construction-si
 
 1. Heavy-duty legged robots capable of navigating challenging construction environments  
 2. Automated cranes  
-3. AI-driven navigation, coordination, and cooperation strategies  
+3. AI-driven navigation, coordination, and cooperation strategies
+
+</section>
+
+<section class="topic" id="topic-platforms" markdown="1">
 
 ## Novel Robotic Platforms
 
@@ -121,7 +163,7 @@ The ability to adjust cable lengths introduces additional degrees of freedom, al
 
 This feature provides unprecedented positioning accuracy when required while also enabling acceleration and deceleration of the load without inducing unwanted oscillations. CO-FAST enables innovative wildfire suppression strategies and has applications in transportation, handling, and automated assembly of loads in construction sites and remote areas.
 
-
+</section>
 
 You can check more about these in my Youtube Research [playlist](https://youtube.com/playlist?list=PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H&feature=shared)
 
@@ -273,7 +315,30 @@ You can check more about these in my Youtube Research [playlist](https://youtube
   if (!bar || !panels.length) { return; }
   document.documentElement.classList.add('research-js');
   bar.hidden = false;
+
+  var topicsPanel = document.getElementById('research-topics');
+  var tbar = document.getElementById('topic-tabbar');
+  var topics = topicsPanel ? topicsPanel.querySelectorAll('.topic') : [];
+  if (tbar) { tbar.hidden = false; }
+  function showTopic(key) {
+    var found = false;
+    for (var i = 0; i < topics.length; i++) {
+      var on = topics[i].id === 'topic-' + key;
+      topics[i].classList.toggle('on', on);
+      found = found || on;
+    }
+    if (!found) { key = 'all'; }
+    topicsPanel.classList.toggle('topic-filtered', key !== 'all');
+    var tb = tbar ? tbar.querySelectorAll('button') : [];
+    for (var j = 0; j < tb.length; j++) {
+      tb[j].setAttribute('aria-pressed', tb[j].getAttribute('data-topic') === key ? 'true' : 'false');
+    }
+    return key;
+  }
+
   function show(key, push) {
+    var sub = null;
+    if (key.indexOf('topics-') === 0) { sub = key.slice(7); key = 'topics'; }
     var found = false;
     for (var i = 0; i < panels.length; i++) {
       var on = panels[i].id === 'research-' + key;
@@ -285,12 +350,25 @@ You can check more about these in my Youtube Research [playlist](https://youtube
     for (var j = 0; j < btns.length; j++) {
       btns[j].setAttribute('aria-selected', btns[j].getAttribute('data-tab') === key ? 'true' : 'false');
     }
-    if (push && history.replaceState) { history.replaceState(null, '', '#' + key); }
+    var hash = key;
+    if (key === 'topics' && topicsPanel) {
+      sub = showTopic(sub || 'all');
+      if (sub !== 'all') { hash = 'topics-' + sub; }
+    }
+    if (push && history.replaceState) { history.replaceState(null, '', '#' + hash); }
   }
   bar.addEventListener('click', function (e) {
     var b = e.target.closest('button');
     if (b) { show(b.getAttribute('data-tab'), true); }
   });
+  if (tbar) {
+    tbar.addEventListener('click', function (e) {
+      var b = e.target.closest('button');
+      if (!b) { return; }
+      var t = b.getAttribute('data-topic');
+      show(t === 'all' ? 'topics' : 'topics-' + t, true);
+    });
+  }
   show(location.hash.replace('#', '') || panels[0].id.replace('research-', ''), false);
 })();
 </script>
