@@ -9,14 +9,6 @@ header:
 
 <p class="climb-links"><a class="climb-link" href="https://www.youtube.com/playlist?list=PLpppns-JGSyI9TZNf0NxK06wJjRP_SYJm"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#f00" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.6 15.6 15.8 12 9.6 8.4z"/></svg>Climbing videos on YouTube</a></p>
 
-<div class="climb-bio" markdown="1">
-
-## Bio
-
-{% include climbing/bio.md %}
-
-</div>
-
 Alpinism for me is going out from my comfort zone to approximate my real self. It is getting to know my limits and accept them. It is experiencing deep emotions that make me feel alive as anything else. It is pleasure in the movement and contemplation of nature. It makes you enter in a kind of meditative state too, because you are 100% in the "here and now". In a nutshell, for me it is the closest that you can have to a spiritual experience.
 
 Below is my climbing record, grouped by discipline.
@@ -28,8 +20,6 @@ Below is my climbing record, grouped by discipline.
 .climb-link:hover { border-color: currentColor; background: rgba(128,128,128,.15); }
 .climb-link:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 .climb-link svg { width: 1.3em; height: 1.3em; flex: none; }
-.climb-bio { margin-bottom: 2em; padding-bottom: 1.2em; border-bottom: 1px solid rgba(128,128,128,.35); }
-.climb-bio h2 { margin-top: 0; }
 .climb-story { margin: .4em 0 1.2em; padding-left: 1em; border-left: 3px solid rgba(128,128,128,.5); font-style: italic; opacity: .92; }
 .climb-tabbar { display: flex; flex-wrap: wrap; gap: .4em; margin: 1.5em 0 1em; padding-bottom: .8em;
   border-bottom: 1px solid rgba(128,128,128,.35); }
@@ -46,7 +36,15 @@ Below is my climbing record, grouped by discipline.
 .climb-js .climb-panel > h2:first-child { display: none; }
 </style>
 
-<div class="climb-tabbar" id="climb-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="rock" aria-selected="false">Rock alpinism<span class="n">116</span></button><button type="button" role="tab" data-tab="ice" aria-selected="false">Ice & mixed<span class="n">25</span></button><button type="button" role="tab" data-tab="falls" aria-selected="false">Ice falls<span class="n">49</span></button><button type="button" role="tab" data-tab="ski" aria-selected="false">Ski mountaineering<span class="n">20</span></button><button type="button" role="tab" data-tab="extra" aria-selected="false">Extra-European<span class="n">24</span></button><button type="button" role="tab" data-tab="sport" aria-selected="false">Multi-pitch sport<span class="n">138</span></button><button type="button" role="tab" data-tab="press" aria-selected="false">Talks & press</button></div>
+<div class="climb-tabbar" id="climb-tabbar" role="tablist" hidden><button type="button" role="tab" data-tab="bio" aria-selected="false">Bio</button><button type="button" role="tab" data-tab="rock" aria-selected="false">Rock alpinism<span class="n">116</span></button><button type="button" role="tab" data-tab="ice" aria-selected="false">Ice & mixed<span class="n">25</span></button><button type="button" role="tab" data-tab="falls" aria-selected="false">Ice falls<span class="n">49</span></button><button type="button" role="tab" data-tab="ski" aria-selected="false">Ski mountaineering<span class="n">20</span></button><button type="button" role="tab" data-tab="extra" aria-selected="false">Extra-European<span class="n">24</span></button><button type="button" role="tab" data-tab="sport" aria-selected="false">Multi-pitch sport<span class="n">138</span></button><button type="button" role="tab" data-tab="press" aria-selected="false">Talks & press</button></div>
+
+<div class="climb-panel" id="climb-bio" markdown="1">
+
+## Bio
+
+{% include climbing/bio.md %}
+
+</div>
 
 <div class="climb-panel" id="climb-rock" markdown="1">
 
