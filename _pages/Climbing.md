@@ -7,11 +7,30 @@ header:
 
 <!-- Tables generated from cv_alpinistico_Michele_Focchi_ordered.xlsx -->
 
+<p class="climb-links"><a class="climb-link" href="https://www.youtube.com/playlist?list=PLpppns-JGSyI9TZNf0NxK06wJjRP_SYJm"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#f00" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.6 15.6 15.8 12 9.6 8.4z"/></svg>Climbing videos on YouTube</a></p>
+
+<div class="climb-bio" markdown="1">
+
+## Bio
+
+{% include climbing/bio.md %}
+
+</div>
+
 Alpinism for me is going out from my comfort zone to approximate my real self. It is getting to know my limits and accept them. It is experiencing deep emotions that make me feel alive as anything else. It is pleasure in the movement and contemplation of nature. It makes you enter in a kind of meditative state too, because you are 100% in the "here and now". In a nutshell, for me it is the closest that you can have to a spiritual experience.
 
 Below is my climbing record, grouped by discipline.
 
 <style>
+.climb-links { display: flex; flex-wrap: wrap; gap: .5em; margin: .2em 0 1.4em; }
+.climb-link { display: inline-flex; align-items: center; gap: .45em; font-size: .85em; color: inherit !important;
+  text-decoration: none !important; padding: .45em 1em; border: 1px solid rgba(128,128,128,.5); border-radius: 999px; }
+.climb-link:hover { border-color: currentColor; background: rgba(128,128,128,.15); }
+.climb-link:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.climb-link svg { width: 1.3em; height: 1.3em; flex: none; }
+.climb-bio { margin-bottom: 2em; padding-bottom: 1.2em; border-bottom: 1px solid rgba(128,128,128,.35); }
+.climb-bio h2 { margin-top: 0; }
+.climb-story { margin: .4em 0 1.2em; padding-left: 1em; border-left: 3px solid rgba(128,128,128,.5); font-style: italic; opacity: .92; }
 .climb-tabbar { display: flex; flex-wrap: wrap; gap: .4em; margin: 1.5em 0 1em; padding-bottom: .8em;
   border-bottom: 1px solid rgba(128,128,128,.35); }
 .climb-tabbar button { font: inherit; font-size: .8em; color: inherit; background: transparent; cursor: pointer;
@@ -474,6 +493,12 @@ Below is my climbing record, grouped by discipline.
 *Articles about the expeditions and public talks.*
 
 ### Karakorum, Pakistan – Spedizione Translimes 2017
+
+<div class="climb-story" markdown="1">
+
+{% include climbing/translimes.md %}
+
+</div>
 
 - 16 luglio 2017 – Il Resto del Carlino, «Mi arrampicherò sulle vette dell'Himalaya inesplorato»
 - [1 settembre 2017 – La Stampa (ed. Biella), «La vetta mai scalata in Pakistan diventa la Punta Città di Biella»](http://www.lastampa.it/2017/09/01/edizioni/biella/la-vetta-mai-scalata-in-pakistan-diventa-la-punta-citt-di-biella-KlvSj7oIrXabiXr9FVynMK/pagina.html)
