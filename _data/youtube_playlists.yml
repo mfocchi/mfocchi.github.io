@@ -1,0 +1,28 @@
+# Playlists shown on the YouTube page (/YouTube/).
+# To add one: copy the playlist link from YouTube, put the part after "list=" in `id`.
+# `section` must be "research" or "teaching". Order here = order on the page.
+
+- title: "Research"
+  id: PLpppns-JGSyKlxNhpuYCevkTBI8-Apn-H
+  section: research
+  description: "Experiments and paper videos on legged, climbing and wheeled robots."
+
+- title: "Talks and seminars"
+  id: PLpppns-JGSyLA2fpT1t63ZME1vVnap38Q
+  section: research
+  description: "Invited talks and masterclasses, e.g. University of Porto, 2022."
+
+- title: "Modeling of legged robots (summer school)"
+  id: PLWLGtszvv1MA
+  section: teaching
+  description: "Floating-base kinematics, contact modeling, centroidal dynamics and contact force optimization."
+
+- title: "Introduction to Robotics (lectures)"
+  id: PLpppns-JGSyKeuVledkZUQXxJBR7bjcw_
+  section: teaching
+  description: "Recorded lectures of the course at the University of Trento, 2020/21."
+
+- title: "Control of Legged Robots (lectures)"
+  id: PLpppns-JGSyKFwngvh-DYRBpH9NUdqH4J
+  section: teaching
+  description: "Recorded lectures of the course at IIT / University of Genova, 2020."
