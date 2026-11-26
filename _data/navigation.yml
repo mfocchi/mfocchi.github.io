@@ -16,6 +16,8 @@ main:
      url: /Climbing/
    - title: "YouTube"
      url: /YouTube/
+   - title: "Openings"
+     url: /Openings/
    - title: "Contact"
      url: /Contact/
 
