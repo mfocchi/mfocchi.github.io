@@ -54,33 +54,27 @@ author_profile: true
     Passion and skills are the starting point, not the finish line. I'm looking for people who, given point A, find their own way from B to Z and come back with ideas I hadn't thought of: students who propose, try, fail fast and try again without waiting to be told.
   </li>
 </ul>
-```html
+ 
 <h3 id="requirements">Mandatory requirements</h3>
 
 <p>In addition, there are two firm requirements. They make the collaboration productive and make good use of my time and yours.</p>
 
-<ul class="qualities">
-  <li>
-    <strong>At least one year of commitment</strong>
-    Robotics is a multidisciplinary field involving hardware, and in my experience one year is the minimum needed to achieve a meaningful result.
-  </li>
-  <li>
-    <strong>On-site work, not remote</strong>
-    In my experience, regular weekly guidance in person is what keeps a project moving, helps overcome difficulties and makes excellent work possible.
-  </li>
+<ul>
+  <li><strong>At least one year of commitment.</strong> Robotics is a multidisciplinary field involving hardware, and in my experience one year is the minimum needed to achieve a meaningful result. This means I will not accept summer internships, etc.</li>
+  <li><strong>On-site work, not remote.</strong> In my experience, regular weekly guidance in person is what keeps a project moving, helps overcome difficulties and pursue excellence.</li>
 </ul>
-```
+ 
 
 
 
 <h2 id="current-openings">Current openings</h2>
 
-```html
+ 
 <div class="notice">
   <span class="notice-title">⚠ No funded positions at the moment</span>
-  <p style="margin:0">There are currently <strong>no funded positions</strong> in my group (PhD scholarships, research grants or paid internships). When new calls open, they will be announced on this page and on the University of Trento website.</p>
+  <p style="margin:0">There are currently <strong>no funded positions</strong> in my group (PhD scholarships, research grants or paid internships). When new calls open, they will be announced on this page.</p>
 </div>
-```
+ 
 
 
 <h2 id="apply">Apply anyway</h2>
