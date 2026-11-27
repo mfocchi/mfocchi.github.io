@@ -12,7 +12,8 @@ author_profile: true
   .openings .qualities { list-style: none; margin: 1.2em 0 0; padding: 0; }
   .openings .qualities li { border-left: 3px solid var(--op-accent); padding: .2em 0 .2em 1.1em; margin: 0 0 1.4em; max-width: 68ch; }
   .openings .qualities strong { display: block; font-size: 1.05em; margin-bottom: .25em; }
-  .openings .notice { background: var(--op-soft); border: 1px solid var(--op-line); border-radius: 6px; padding: 1em 1.2em; max-width: 68ch; }
+  .openings .notice { background: #fff4e0; border: 1px solid #f0b45a; border-left: 6px solid #e07b00; border-radius: 6px; padding:   1em 1.2em; max-width: 68ch; color: #3d2a00; }
+  .openings .notice .notice-title { display: block; font-weight: 700; color: #b35f00; text-transform: uppercase; letter-spacing:   .05em; font-size: .85em; margin-bottom: .35em; }
   .openings form { max-width: 640px; margin-top: 1.2em; }
   .openings .field { margin-bottom: 1.1em; }
   .openings .field > label, .openings fieldset legend { font-weight: 600; display: block; margin-bottom: .3em; }
@@ -29,6 +30,7 @@ author_profile: true
   .openings #op-status.ok { color: #1e7a3c; }
   .openings #own-source[hidden] { display: none; }
 </style>
+
 
 <div class="openings">
 
@@ -52,13 +54,34 @@ author_profile: true
     Passion and skills are the starting point, not the finish line. I'm looking for people who, given point A, find their own way from B to Z and come back with ideas I hadn't thought of: students who propose, try, fail fast and try again without waiting to be told.
   </li>
 </ul>
+```html
+<h3 id="requirements">Mandatory requirements</h3>
+
+<p>In addition, there are two firm requirements. They make the collaboration productive and make good use of my time and yours.</p>
+
+<ul class="qualities">
+  <li>
+    <strong>At least one year of commitment</strong>
+    Robotics is a multidisciplinary field involving hardware, and in my experience one year is the minimum needed to achieve a meaningful result.
+  </li>
+  <li>
+    <strong>On-site work, not remote</strong>
+    In my experience, regular weekly guidance in person is what keeps a project moving, helps overcome difficulties and makes excellent work possible.
+  </li>
+</ul>
+```
+
 
 
 <h2 id="current-openings">Current openings</h2>
 
+```html
 <div class="notice">
+  <span class="notice-title">⚠ No funded positions at the moment</span>
   <p style="margin:0">There are currently <strong>no funded positions</strong> in my group (PhD scholarships, research grants or paid internships). When new calls open, they will be announced on this page and on the University of Trento website.</p>
 </div>
+```
+
 
 <h2 id="apply">Apply anyway</h2>
 
